@@ -1,0 +1,23 @@
+[4.997s] Invoking command in '/home/group4/Documents/EECE5554-FP/navphy_ws/navigation': PYTHONPATH=/home/group4/Documents/EECE5554-FP/navphy_ws/build/navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/navigation build --build-base /home/group4/Documents/EECE5554-FP/navphy_ws/build/navigation/build install --record /home/group4/Documents/EECE5554-FP/navphy_ws/build/navigation/install.log --single-version-externally-managed install_data
+[6.387s] running egg_info
+[6.391s] writing ../build/navigation/navigation.egg-info/PKG-INFO
+[6.401s] writing dependency_links to ../build/navigation/navigation.egg-info/dependency_links.txt
+[6.406s] writing entry points to ../build/navigation/navigation.egg-info/entry_points.txt
+[6.411s] writing requirements to ../build/navigation/navigation.egg-info/requires.txt
+[6.414s] writing top-level names to ../build/navigation/navigation.egg-info/top_level.txt
+[6.435s] reading manifest file '../build/navigation/navigation.egg-info/SOURCES.txt'
+[6.437s] writing manifest file '../build/navigation/navigation.egg-info/SOURCES.txt'
+[6.453s] running build
+[6.457s] running build_py
+[6.464s] running install
+[6.465s] running install_lib
+[6.472s] running install_data
+[6.473s] running install_egg_info
+[6.478s] removing '/home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation/lib/python3.10/site-packages/navigation-0.0.0-py3.10.egg-info' (and everything under it)
+[6.478s] Copying ../build/navigation/navigation.egg-info to /home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation/lib/python3.10/site-packages/navigation-0.0.0-py3.10.egg-info
+[6.480s] running install_scripts
+[6.577s] Installing nav2pose script to /home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation/lib/navigation
+[6.584s] Installing nav2pose_talker script to /home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation/lib/navigation
+[6.590s] Installing target_search script to /home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation/lib/navigation
+[6.597s] writing list of installed files to '/home/group4/Documents/EECE5554-FP/navphy_ws/build/navigation/install.log'
+[6.799s] Invoked command in '/home/group4/Documents/EECE5554-FP/navphy_ws/navigation' returned '0': PYTHONPATH=/home/group4/Documents/EECE5554-FP/navphy_ws/build/navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/navigation build --build-base /home/group4/Documents/EECE5554-FP/navphy_ws/build/navigation/build install --record /home/group4/Documents/EECE5554-FP/navphy_ws/build/navigation/install.log --single-version-externally-managed install_data

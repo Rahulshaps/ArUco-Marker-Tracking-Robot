@@ -1,0 +1,267 @@
+[0.000000] (-) TimerEvent: {}
+[0.002105] (basic_mobile_robot) JobQueued: {'identifier': 'basic_mobile_robot', 'dependencies': OrderedDict()}
+[0.002768] (navigation) JobQueued: {'identifier': 'navigation', 'dependencies': OrderedDict()}
+[0.003293] (target_tracking) JobQueued: {'identifier': 'target_tracking', 'dependencies': OrderedDict()}
+[0.003525] (basic_mobile_robot) JobStarted: {'identifier': 'basic_mobile_robot'}
+[0.078352] (navigation) JobStarted: {'identifier': 'navigation'}
+[0.099678] (-) TimerEvent: {}
+[0.138757] (target_tracking) JobStarted: {'identifier': 'target_tracking'}
+[0.201861] (-) TimerEvent: {}
+[0.244706] (basic_mobile_robot) JobProgress: {'identifier': 'basic_mobile_robot', 'progress': 'cmake'}
+[0.259753] (basic_mobile_robot) JobProgress: {'identifier': 'basic_mobile_robot', 'progress': 'build'}
+[0.270309] (basic_mobile_robot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/group4/Documents/EECE5554-FP/navphy_ws/build/basic_mobile_robot', '--', '-j4', '-l4'], 'cwd': '/home/group4/Documents/EECE5554-FP/navphy_ws/build/basic_mobile_robot', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'group4'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/group4'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.95.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '979'), ('SYSTEMD_EXEC_PID', '1604'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3006'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/group4/Documents/turtlebot3_ws/install:/home/group4/Documents/EECE5554-FP/navphy_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'group4'), ('JOURNAL_STREAM', '8:23324'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'group4'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/group4-desktop:@/tmp/.ICE-unix/1544,unix/group4-desktop:/tmp/.ICE-unix/1544'), ('INVOCATION_ID', 'f16af13db7774fb68e0aab699b478010'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3ef2baf832.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/group4/Documents/turtlebot3_ws/install/turtlebot3:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_bringup:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_node:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_example:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_description:/home/group4/Documents/turtlebot3_ws/install/ld08_driver:/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking:/home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation:/home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/group4/Documents/EECE5554-FP/navphy_ws/build/basic_mobile_robot'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-02'), ('PYTHONPATH', '/home/group4/Documents/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages:/home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/group4/Documents/turtlebot3_ws/install/turtlebot3:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_bringup:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_node:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_description:/home/group4/Documents/turtlebot3_ws/install/ld08_driver:/home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_example:/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking:/home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation:/opt/ros/humble')]), 'shell': False}
+[0.302626] (-) TimerEvent: {}
+[0.404778] (-) TimerEvent: {}
+[0.506871] (-) TimerEvent: {}
+[0.610309] (-) TimerEvent: {}
+[0.712405] (-) TimerEvent: {}
+[0.819122] (-) TimerEvent: {}
+[0.920559] (-) TimerEvent: {}
+[1.022215] (-) TimerEvent: {}
+[1.126305] (-) TimerEvent: {}
+[1.227250] (-) TimerEvent: {}
+[1.328319] (-) TimerEvent: {}
+[1.429100] (-) TimerEvent: {}
+[1.530022] (-) TimerEvent: {}
+[1.631323] (-) TimerEvent: {}
+[1.732445] (-) TimerEvent: {}
+[1.833543] (-) TimerEvent: {}
+[1.934732] (-) TimerEvent: {}
+[2.036623] (-) TimerEvent: {}
+[2.138435] (-) TimerEvent: {}
+[2.239165] (-) TimerEvent: {}
+[2.339944] (-) TimerEvent: {}
+[2.440692] (-) TimerEvent: {}
+[2.541469] (-) TimerEvent: {}
+[2.642319] (-) TimerEvent: {}
+[2.743772] (-) TimerEvent: {}
+[2.829014] (basic_mobile_robot) StdoutLine: {'line': b'[100%] Built target lidar_odometry_node\n'}
+[2.844240] (-) TimerEvent: {}
+[2.945978] (-) TimerEvent: {}
+[3.046791] (-) TimerEvent: {}
+[3.147785] (-) TimerEvent: {}
+[3.248564] (-) TimerEvent: {}
+[3.349426] (-) TimerEvent: {}
+[3.450212] (-) TimerEvent: {}
+[3.550955] (-) TimerEvent: {}
+[3.651830] (-) TimerEvent: {}
+[3.752642] (-) TimerEvent: {}
+[3.853486] (-) TimerEvent: {}
+[3.954557] (-) TimerEvent: {}
+[4.055539] (-) TimerEvent: {}
+[4.156306] (-) TimerEvent: {}
+[4.257084] (-) TimerEvent: {}
+[4.357841] (-) TimerEvent: {}
+[4.458573] (-) TimerEvent: {}
+[4.559296] (-) TimerEvent: {}
+[4.660158] (-) TimerEvent: {}
+[4.762145] (-) TimerEvent: {}
+[4.820907] (basic_mobile_robot) CommandEnded: {'returncode': 0}
+[4.826790] (basic_mobile_robot) JobProgress: {'identifier': 'basic_mobile_robot', 'progress': 'install'}
+[4.862249] (-) TimerEvent: {}
+[4.870593] (basic_mobile_robot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/group4/Documents/EECE5554-FP/navphy_ws/build/basic_mobile_robot'], 'cwd': '/home/group4/Documents/EECE5554-FP/navphy_ws/build/basic_mobile_robot', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'group4'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/group4'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.95.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '979'), ('SYSTEMD_EXEC_PID', '1604'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3006'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/group4/Documents/turtlebot3_ws/install:/home/group4/Documents/EECE5554-FP/navphy_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'group4'), ('JOURNAL_STREAM', '8:23324'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'group4'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/group4-desktop:@/tmp/.ICE-unix/1544,unix/group4-desktop:/tmp/.ICE-unix/1544'), ('INVOCATION_ID', 'f16af13db7774fb68e0aab699b478010'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3ef2baf832.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/group4/Documents/turtlebot3_ws/install/turtlebot3:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_bringup:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_node:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_example:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_description:/home/group4/Documents/turtlebot3_ws/install/ld08_driver:/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking:/home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation:/home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/group4/Documents/EECE5554-FP/navphy_ws/build/basic_mobile_robot'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-02'), ('PYTHONPATH', '/home/group4/Documents/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages:/home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/group4/Documents/turtlebot3_ws/install/turtlebot3:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_bringup:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_node:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_description:/home/group4/Documents/turtlebot3_ws/install/ld08_driver:/home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_example:/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking:/home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation:/opt/ros/humble')]), 'shell': False}
+[4.933580] (basic_mobile_robot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.936198] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/behavior_trees\n'}
+[4.938599] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/behavior_trees/navigate_to_pose_with_updates.xml\n'}
+[4.945297] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/behavior_trees/navigate_to_pose_w_replanning_and_recovery.xml\n'}
+[4.945971] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/config\n'}
+[4.947146] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/config/ekf.yaml\n'}
+[4.948716] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/config/nav2_params.yaml\n'}
+[4.950072] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/config/doslam.yaml\n'}
+[4.952920] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/include\n'}
+[4.954820] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/include/lidar_odometry\n'}
+[4.956630] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/include/lidar_odometry/utils.hpp\n'}
+[4.957999] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/include/lidar_odometry/lidar_odometry.hpp\n'}
+[4.959186] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch\n'}
+[4.960722] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch/urdf_visualizer.launch.py\n'}
+[4.961980] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch/target_tracking.launch.py\n'}
+[4.962562] (-) TimerEvent: {}
+[4.965310] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch/slam.launch.py\n'}
+[4.965974] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch/rplidar.launch.py\n'}
+[4.966473] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch/nav_physical.launch.py\n'}
+[4.967393] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch/teleop.launch.py\n'}
+[4.968036] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/maps\n'}
+[4.974673] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/maps/slam_map.pgm\n'}
+[4.975989] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/maps/slam_map.yaml\n'}
+[4.977807] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/models\n'}
+[4.978527] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/common_properties.urdf\n'}
+[4.979595] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/turtlebot_burger.urdf\n'}
+[4.980503] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes\n'}
+[4.981180] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/sensors\n'}
+[4.982014] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/sensors/astra.jpg\n'}
+[4.982967] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/sensors/r200.dae\n'}
+[4.984754] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/sensors/astra.dae\n'}
+[4.988055] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/sensors/r200.jpg\n'}
+[4.988760] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/sensors/lds.stl\n'}
+[4.989531] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/bases\n'}
+[4.999095] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/bases/waffle_base.stl\n'}
+[5.001691] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/bases/waffle_pi_base.stl\n'}
+[5.004171] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/bases/waffle_pi_base_for_open_manipulator.stl\n'}
+[5.005185] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/bases/waffle_base_for_open_manipulator.stl\n'}
+[5.011004] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/bases/burger_base.stl\n'}
+[5.016524] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/wheels\n'}
+[5.019811] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/wheels/right_tire.stl\n'}
+[5.039405] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/wheels/left_tire.stl\n'}
+[5.040223] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/rviz\n'}
+[5.040993] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/rviz/urdf_config.rviz\n'}
+[5.041742] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/rviz/slam.rviz\n'}
+[5.042436] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/rviz/turtlebot.rviz\n'}
+[5.046679] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/rviz/teleop.rviz\n'}
+[5.049651] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/rviz/test.rviz\n'}
+[5.050684] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/src\n'}
+[5.051725] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/src/lidar_odometry.cpp\n'}
+[5.052571] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/src/lidar_odometry_node.cpp\n'}
+[5.053232] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/lib/basic_mobile_robot/lidar_odometry_node\n'}
+[5.061961] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/ament_index/resource_index/package_run_dependencies/basic_mobile_robot\n'}
+[5.063092] (-) TimerEvent: {}
+[5.073824] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/ament_index/resource_index/parent_prefix_path/basic_mobile_robot\n'}
+[5.074616] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/environment/ament_prefix_path.sh\n'}
+[5.075192] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/environment/ament_prefix_path.dsv\n'}
+[5.075796] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/environment/path.sh\n'}
+[5.076388] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/environment/path.dsv\n'}
+[5.077180] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/local_setup.bash\n'}
+[5.078077] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/local_setup.sh\n'}
+[5.078609] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/local_setup.zsh\n'}
+[5.079102] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/local_setup.dsv\n'}
+[5.079598] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/package.dsv\n'}
+[5.080011] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/ament_index/resource_index/packages/basic_mobile_robot\n'}
+[5.087904] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/cmake/basic_mobile_robotConfig.cmake\n'}
+[5.093478] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/cmake/basic_mobile_robotConfig-version.cmake\n'}
+[5.095271] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/package.xml\n'}
+[5.114238] (basic_mobile_robot) CommandEnded: {'returncode': 0}
+[5.163350] (-) TimerEvent: {}
+[5.265570] (-) TimerEvent: {}
+[5.368319] (-) TimerEvent: {}
+[5.425537] (basic_mobile_robot) JobEnded: {'identifier': 'basic_mobile_robot', 'rc': 0}
+[5.468679] (-) TimerEvent: {}
+[5.570409] (-) TimerEvent: {}
+[5.671754] (-) TimerEvent: {}
+[5.772932] (-) TimerEvent: {}
+[5.874422] (-) TimerEvent: {}
+[5.975573] (-) TimerEvent: {}
+[6.078085] (-) TimerEvent: {}
+[6.179640] (-) TimerEvent: {}
+[6.281557] (-) TimerEvent: {}
+[6.384438] (-) TimerEvent: {}
+[6.486821] (-) TimerEvent: {}
+[6.587944] (-) TimerEvent: {}
+[6.689852] (-) TimerEvent: {}
+[6.792564] (-) TimerEvent: {}
+[6.895198] (-) TimerEvent: {}
+[6.996194] (-) TimerEvent: {}
+[7.097262] (-) TimerEvent: {}
+[7.201630] (-) TimerEvent: {}
+[7.303170] (-) TimerEvent: {}
+[7.404547] (-) TimerEvent: {}
+[7.509060] (-) TimerEvent: {}
+[7.613448] (-) TimerEvent: {}
+[7.716275] (-) TimerEvent: {}
+[7.817952] (-) TimerEvent: {}
+[7.920869] (-) TimerEvent: {}
+[8.027160] (-) TimerEvent: {}
+[8.129801] (-) TimerEvent: {}
+[8.232226] (-) TimerEvent: {}
+[8.337063] (-) TimerEvent: {}
+[8.438789] (-) TimerEvent: {}
+[8.540528] (-) TimerEvent: {}
+[8.643294] (-) TimerEvent: {}
+[8.746304] (-) TimerEvent: {}
+[8.848531] (-) TimerEvent: {}
+[8.953459] (-) TimerEvent: {}
+[9.057369] (-) TimerEvent: {}
+[9.159136] (-) TimerEvent: {}
+[9.262876] (navigation) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/navigation', 'build', '--build-base', '/home/group4/Documents/EECE5554-FP/navphy_ws/build/navigation/build', 'install', '--record', '/home/group4/Documents/EECE5554-FP/navphy_ws/build/navigation/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/group4/Documents/EECE5554-FP/navphy_ws/navigation', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'group4', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/group4', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.95.3', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '979', 'SYSTEMD_EXEC_PID': '1604', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3006', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/group4/Documents/turtlebot3_ws/install:/home/group4/Documents/EECE5554-FP/navphy_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'group4', 'JOURNAL_STREAM': '8:23324', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'group4', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/group4-desktop:@/tmp/.ICE-unix/1544,unix/group4-desktop:/tmp/.ICE-unix/1544', 'INVOCATION_ID': 'f16af13db7774fb68e0aab699b478010', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-3ef2baf832.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/group4/Documents/turtlebot3_ws/install/turtlebot3:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_bringup:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_node:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_example:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_description:/home/group4/Documents/turtlebot3_ws/install/ld08_driver:/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking:/home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation:/home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/group4/Documents/EECE5554-FP/navphy_ws/build/navigation', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/home/group4/Documents/EECE5554-FP/navphy_ws/build/navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation/lib/python3.10/site-packages:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages:/home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/group4/Documents/turtlebot3_ws/install/turtlebot3:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_bringup:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_node:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_description:/home/group4/Documents/turtlebot3_ws/install/ld08_driver:/home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot'}, 'shell': False}
+[9.305661] (-) TimerEvent: {}
+[9.340032] (target_tracking) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/target_tracking', 'build', '--build-base', '/home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/build', 'install', '--record', '/home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/group4/Documents/EECE5554-FP/navphy_ws/target_tracking', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'group4', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/group4', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.95.3', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '979', 'SYSTEMD_EXEC_PID': '1604', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3006', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/group4/Documents/turtlebot3_ws/install:/home/group4/Documents/EECE5554-FP/navphy_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'group4', 'JOURNAL_STREAM': '8:23324', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'group4', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/group4-desktop:@/tmp/.ICE-unix/1544,unix/group4-desktop:/tmp/.ICE-unix/1544', 'INVOCATION_ID': 'f16af13db7774fb68e0aab699b478010', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-3ef2baf832.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/group4/Documents/turtlebot3_ws/install/turtlebot3:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_bringup:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_node:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_example:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_description:/home/group4/Documents/turtlebot3_ws/install/ld08_driver:/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking:/home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation:/home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages:/home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/group4/Documents/turtlebot3_ws/install/turtlebot3:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_bringup:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_node:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_description:/home/group4/Documents/turtlebot3_ws/install/ld08_driver:/home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot'}, 'shell': False}
+[9.406046] (-) TimerEvent: {}
+[9.508582] (-) TimerEvent: {}
+[9.611863] (-) TimerEvent: {}
+[9.714329] (-) TimerEvent: {}
+[9.816194] (-) TimerEvent: {}
+[9.919938] (-) TimerEvent: {}
+[10.023244] (-) TimerEvent: {}
+[10.125683] (-) TimerEvent: {}
+[10.229980] (-) TimerEvent: {}
+[10.333255] (-) TimerEvent: {}
+[10.437964] (-) TimerEvent: {}
+[10.539451] (-) TimerEvent: {}
+[10.641738] (-) TimerEvent: {}
+[10.746018] (-) TimerEvent: {}
+[10.849869] (-) TimerEvent: {}
+[10.954236] (-) TimerEvent: {}
+[11.058962] (-) TimerEvent: {}
+[11.160689] (-) TimerEvent: {}
+[11.264424] (-) TimerEvent: {}
+[11.366748] (-) TimerEvent: {}
+[11.469563] (-) TimerEvent: {}
+[11.571346] (-) TimerEvent: {}
+[11.673472] (-) TimerEvent: {}
+[11.778003] (-) TimerEvent: {}
+[11.880986] (-) TimerEvent: {}
+[11.982731] (-) TimerEvent: {}
+[12.084785] (-) TimerEvent: {}
+[12.186186] (-) TimerEvent: {}
+[12.287739] (-) TimerEvent: {}
+[12.388981] (-) TimerEvent: {}
+[12.491415] (-) TimerEvent: {}
+[12.592943] (-) TimerEvent: {}
+[12.694774] (-) TimerEvent: {}
+[12.797645] (-) TimerEvent: {}
+[12.899746] (-) TimerEvent: {}
+[13.007144] (-) TimerEvent: {}
+[13.097695] (navigation) StdoutLine: {'line': b'running egg_info\n'}
+[13.101805] (navigation) StdoutLine: {'line': b'writing ../build/navigation/navigation.egg-info/PKG-INFO\n'}
+[13.106906] (navigation) StdoutLine: {'line': b'writing dependency_links to ../build/navigation/navigation.egg-info/dependency_links.txt\n'}
+[13.112280] (-) TimerEvent: {}
+[13.114414] (navigation) StdoutLine: {'line': b'writing entry points to ../build/navigation/navigation.egg-info/entry_points.txt\n'}
+[13.117803] (navigation) StdoutLine: {'line': b'writing requirements to ../build/navigation/navigation.egg-info/requires.txt\n'}
+[13.123645] (navigation) StdoutLine: {'line': b'writing top-level names to ../build/navigation/navigation.egg-info/top_level.txt\n'}
+[13.142601] (navigation) StdoutLine: {'line': b"reading manifest file '../build/navigation/navigation.egg-info/SOURCES.txt'\n"}
+[13.157828] (navigation) StdoutLine: {'line': b"writing manifest file '../build/navigation/navigation.egg-info/SOURCES.txt'\n"}
+[13.159072] (navigation) StdoutLine: {'line': b'running build\n'}
+[13.160234] (navigation) StdoutLine: {'line': b'running build_py\n'}
+[13.165664] (navigation) StdoutLine: {'line': b'running install\n'}
+[13.167324] (navigation) StdoutLine: {'line': b'running install_lib\n'}
+[13.181734] (navigation) StdoutLine: {'line': b'running install_data\n'}
+[13.183449] (navigation) StdoutLine: {'line': b'running install_egg_info\n'}
+[13.213633] (-) TimerEvent: {}
+[13.217809] (navigation) StdoutLine: {'line': b"removing '/home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation/lib/python3.10/site-packages/navigation-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[13.225801] (navigation) StdoutLine: {'line': b'Copying ../build/navigation/navigation.egg-info to /home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation/lib/python3.10/site-packages/navigation-0.0.0-py3.10.egg-info\n'}
+[13.253109] (navigation) StdoutLine: {'line': b'running install_scripts\n'}
+[13.317698] (-) TimerEvent: {}
+[13.333808] (target_tracking) StdoutLine: {'line': b'running egg_info\n'}
+[13.337034] (target_tracking) StdoutLine: {'line': b'writing ../build/target_tracking/target_tracking.egg-info/PKG-INFO\n'}
+[13.340246] (target_tracking) StdoutLine: {'line': b'writing dependency_links to ../build/target_tracking/target_tracking.egg-info/dependency_links.txt\n'}
+[13.341761] (target_tracking) StdoutLine: {'line': b'writing entry points to ../build/target_tracking/target_tracking.egg-info/entry_points.txt\n'}
+[13.345907] (target_tracking) StdoutLine: {'line': b'writing requirements to ../build/target_tracking/target_tracking.egg-info/requires.txt\n'}
+[13.347022] (target_tracking) StdoutLine: {'line': b'writing top-level names to ../build/target_tracking/target_tracking.egg-info/top_level.txt\n'}
+[13.369841] (target_tracking) StdoutLine: {'line': b"reading manifest file '../build/target_tracking/target_tracking.egg-info/SOURCES.txt'\n"}
+[13.381589] (target_tracking) StdoutLine: {'line': b"writing manifest file '../build/target_tracking/target_tracking.egg-info/SOURCES.txt'\n"}
+[13.383540] (target_tracking) StdoutLine: {'line': b'running build\n'}
+[13.389568] (target_tracking) StdoutLine: {'line': b'running build_py\n'}
+[13.392635] (target_tracking) StdoutLine: {'line': b'running install\n'}
+[13.407278] (target_tracking) StdoutLine: {'line': b'running install_lib\n'}
+[13.418146] (target_tracking) StdoutLine: {'line': b'running install_data\n'}
+[13.419786] (-) TimerEvent: {}
+[13.420872] (target_tracking) StdoutLine: {'line': b'running install_egg_info\n'}
+[13.439756] (target_tracking) StdoutLine: {'line': b"removing '/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages/target_tracking-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[13.450051] (target_tracking) StdoutLine: {'line': b'Copying ../build/target_tracking/target_tracking.egg-info to /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages/target_tracking-0.0.0-py3.10.egg-info\n'}
+[13.473974] (target_tracking) StdoutLine: {'line': b'running install_scripts\n'}
+[13.493272] (navigation) StdoutLine: {'line': b'Installing nav2pose script to /home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation/lib/navigation\n'}
+[13.498186] (navigation) StdoutLine: {'line': b'Installing nav2pose_talker script to /home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation/lib/navigation\n'}
+[13.500806] (navigation) StdoutLine: {'line': b'Installing target_search script to /home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation/lib/navigation\n'}
+[13.507858] (navigation) StdoutLine: {'line': b"writing list of installed files to '/home/group4/Documents/EECE5554-FP/navphy_ws/build/navigation/install.log'\n"}
+[13.520544] (-) TimerEvent: {}
+[13.622059] (-) TimerEvent: {}
+[13.723637] (-) TimerEvent: {}
+[13.768400] (target_tracking) StdoutLine: {'line': b'Installing target_pos script to /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/target_tracking\n'}
+[13.776311] (target_tracking) StdoutLine: {'line': b"writing list of installed files to '/home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/install.log'\n"}
+[13.806955] (navigation) CommandEnded: {'returncode': 0}
+[13.824239] (-) TimerEvent: {}
+[13.927966] (-) TimerEvent: {}
+[13.959943] (navigation) JobEnded: {'identifier': 'navigation', 'rc': 0}
+[14.028981] (-) TimerEvent: {}
+[14.076523] (target_tracking) CommandEnded: {'returncode': 0}
+[14.133103] (-) TimerEvent: {}
+[14.196005] (target_tracking) JobEnded: {'identifier': 'target_tracking', 'rc': 0}
+[14.210024] (-) EventReactorShutdown: {}

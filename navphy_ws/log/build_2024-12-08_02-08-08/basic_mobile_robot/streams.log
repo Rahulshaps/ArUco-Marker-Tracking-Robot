@@ -1,0 +1,72 @@
+[0.260s] Invoking command in '/home/group4/Documents/EECE5554-FP/navphy_ws/build/basic_mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_example:/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking:/home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation:/opt/ros/humble /usr/bin/cmake --build /home/group4/Documents/EECE5554-FP/navphy_ws/build/basic_mobile_robot -- -j4 -l4
+[3.005s] [35m[1mConsolidate compiler generated dependencies of target lidar_odometry_node[0m
+[3.010s] [100%] Built target lidar_odometry_node
+[5.017s] Invoked command in '/home/group4/Documents/EECE5554-FP/navphy_ws/build/basic_mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_example:/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking:/home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation:/opt/ros/humble /usr/bin/cmake --build /home/group4/Documents/EECE5554-FP/navphy_ws/build/basic_mobile_robot -- -j4 -l4
+[5.074s] Invoking command in '/home/group4/Documents/EECE5554-FP/navphy_ws/build/basic_mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_example:/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking:/home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation:/opt/ros/humble /usr/bin/cmake --install /home/group4/Documents/EECE5554-FP/navphy_ws/build/basic_mobile_robot
+[5.144s] -- Install configuration: ""
+[5.148s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/behavior_trees
+[5.150s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/behavior_trees/navigate_to_pose_with_updates.xml
+[5.151s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/behavior_trees/navigate_to_pose_w_replanning_and_recovery.xml
+[5.152s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/config
+[5.153s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/config/ekf.yaml
+[5.155s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/config/nav2_params.yaml
+[5.158s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/config/doslam.yaml
+[5.161s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/include
+[5.168s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/include/lidar_odometry
+[5.171s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/include/lidar_odometry/utils.hpp
+[5.172s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/include/lidar_odometry/lidar_odometry.hpp
+[5.172s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch
+[5.173s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch/urdf_visualizer.launch.py
+[5.174s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch/target_tracking.launch.py
+[5.182s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch/slam.launch.py
+[5.183s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch/rplidar.launch.py
+[5.190s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch/nav_physical.launch.py
+[5.190s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch/teleop.launch.py
+[5.191s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/maps
+[5.192s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/maps/slam_map.pgm
+[5.192s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/maps/slam_map.yaml
+[5.193s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/models
+[5.193s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/common_properties.urdf
+[5.194s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/turtlebot_burger.urdf
+[5.195s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes
+[5.195s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/sensors
+[5.195s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/sensors/astra.jpg
+[5.212s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/sensors/r200.dae
+[5.213s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/sensors/astra.dae
+[5.223s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/sensors/r200.jpg
+[5.224s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/sensors/lds.stl
+[5.225s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/bases
+[5.226s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/bases/waffle_base.stl
+[5.227s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/bases/waffle_pi_base.stl
+[5.228s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/bases/waffle_pi_base_for_open_manipulator.stl
+[5.230s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/bases/waffle_base_for_open_manipulator.stl
+[5.243s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/bases/burger_base.stl
+[5.254s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/wheels
+[5.256s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/wheels/right_tire.stl
+[5.257s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/wheels/left_tire.stl
+[5.258s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/rviz
+[5.259s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/rviz/urdf_config.rviz
+[5.261s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/rviz/slam.rviz
+[5.281s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/rviz/turtlebot.rviz
+[5.295s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/rviz/teleop.rviz
+[5.296s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/rviz/test.rviz
+[5.297s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/src
+[5.298s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/src/lidar_odometry.cpp
+[5.298s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/src/lidar_odometry_node.cpp
+[5.299s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/lib/basic_mobile_robot/lidar_odometry_node
+[5.300s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/ament_index/resource_index/package_run_dependencies/basic_mobile_robot
+[5.301s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/ament_index/resource_index/parent_prefix_path/basic_mobile_robot
+[5.301s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/environment/ament_prefix_path.sh
+[5.302s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/environment/ament_prefix_path.dsv
+[5.303s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/environment/path.sh
+[5.303s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/environment/path.dsv
+[5.304s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/local_setup.bash
+[5.305s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/local_setup.sh
+[5.305s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/local_setup.zsh
+[5.306s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/local_setup.dsv
+[5.307s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/package.dsv
+[5.307s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/ament_index/resource_index/packages/basic_mobile_robot
+[5.308s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/cmake/basic_mobile_robotConfig.cmake
+[5.309s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/cmake/basic_mobile_robotConfig-version.cmake
+[5.319s] -- Up-to-date: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/package.xml
+[5.320s] Invoked command in '/home/group4/Documents/EECE5554-FP/navphy_ws/build/basic_mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_example:/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking:/home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation:/opt/ros/humble /usr/bin/cmake --install /home/group4/Documents/EECE5554-FP/navphy_ws/build/basic_mobile_robot

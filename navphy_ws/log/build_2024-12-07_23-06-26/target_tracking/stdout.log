@@ -1,0 +1,41 @@
+running egg_info
+creating ../build/target_tracking/target_tracking.egg-info
+writing ../build/target_tracking/target_tracking.egg-info/PKG-INFO
+writing dependency_links to ../build/target_tracking/target_tracking.egg-info/dependency_links.txt
+writing entry points to ../build/target_tracking/target_tracking.egg-info/entry_points.txt
+writing requirements to ../build/target_tracking/target_tracking.egg-info/requires.txt
+writing top-level names to ../build/target_tracking/target_tracking.egg-info/top_level.txt
+writing manifest file '../build/target_tracking/target_tracking.egg-info/SOURCES.txt'
+reading manifest file '../build/target_tracking/target_tracking.egg-info/SOURCES.txt'
+writing manifest file '../build/target_tracking/target_tracking.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/build
+creating /home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/build/lib
+creating /home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/build/lib/target_tracking
+copying target_tracking/target_pos.py -> /home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/build/lib/target_tracking
+copying target_tracking/__init__.py -> /home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/build/lib/target_tracking
+copying target_tracking/test_rclpy.py -> /home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/build/lib/target_tracking
+copying target_tracking/test_aruco.py -> /home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/build/lib/target_tracking
+running install
+running install_lib
+creating /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages/target_tracking
+copying /home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/build/lib/target_tracking/target_pos.py -> /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages/target_tracking
+copying /home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/build/lib/target_tracking/__init__.py -> /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages/target_tracking
+copying /home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/build/lib/target_tracking/test_rclpy.py -> /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages/target_tracking
+copying /home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/build/lib/target_tracking/test_aruco.py -> /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages/target_tracking
+byte-compiling /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages/target_tracking/target_pos.py to target_pos.cpython-310.pyc
+byte-compiling /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages/target_tracking/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages/target_tracking/test_rclpy.py to test_rclpy.cpython-310.pyc
+byte-compiling /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages/target_tracking/test_aruco.py to test_aruco.cpython-310.pyc
+running install_data
+creating /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/share/ament_index
+creating /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/share/ament_index/resource_index
+creating /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/share/ament_index/resource_index/packages
+copying resource/target_tracking -> /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/share/ament_index/resource_index/packages
+copying package.xml -> /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/share/target_tracking
+running install_egg_info
+Copying ../build/target_tracking/target_tracking.egg-info to /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages/target_tracking-0.0.0-py3.10.egg-info
+running install_scripts
+Installing target_pos script to /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/target_tracking
+writing list of installed files to '/home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/install.log'

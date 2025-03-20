@@ -1,0 +1,43 @@
+[9.146s] Invoking command in '/home/group4/Documents/EECE5554-FP/navphy_ws/target_tracking': PYTHONPATH=/home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/target_tracking build --build-base /home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/build install --record /home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/install.log --single-version-externally-managed install_data
+[13.113s] running egg_info
+[13.119s] creating ../build/target_tracking/target_tracking.egg-info
+[13.120s] writing ../build/target_tracking/target_tracking.egg-info/PKG-INFO
+[13.123s] writing dependency_links to ../build/target_tracking/target_tracking.egg-info/dependency_links.txt
+[13.125s] writing entry points to ../build/target_tracking/target_tracking.egg-info/entry_points.txt
+[13.128s] writing requirements to ../build/target_tracking/target_tracking.egg-info/requires.txt
+[13.130s] writing top-level names to ../build/target_tracking/target_tracking.egg-info/top_level.txt
+[13.136s] writing manifest file '../build/target_tracking/target_tracking.egg-info/SOURCES.txt'
+[13.148s] reading manifest file '../build/target_tracking/target_tracking.egg-info/SOURCES.txt'
+[13.154s] writing manifest file '../build/target_tracking/target_tracking.egg-info/SOURCES.txt'
+[13.155s] running build
+[13.158s] running build_py
+[13.163s] creating /home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/build
+[13.167s] creating /home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/build/lib
+[13.170s] creating /home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/build/lib/target_tracking
+[13.172s] copying target_tracking/target_pos.py -> /home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/build/lib/target_tracking
+[13.174s] copying target_tracking/__init__.py -> /home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/build/lib/target_tracking
+[13.176s] copying target_tracking/test_rclpy.py -> /home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/build/lib/target_tracking
+[13.177s] copying target_tracking/test_aruco.py -> /home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/build/lib/target_tracking
+[13.178s] running install
+[13.179s] running install_lib
+[13.192s] creating /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages/target_tracking
+[13.193s] copying /home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/build/lib/target_tracking/target_pos.py -> /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages/target_tracking
+[13.195s] copying /home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/build/lib/target_tracking/__init__.py -> /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages/target_tracking
+[13.219s] copying /home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/build/lib/target_tracking/test_rclpy.py -> /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages/target_tracking
+[13.221s] copying /home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/build/lib/target_tracking/test_aruco.py -> /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages/target_tracking
+[13.223s] byte-compiling /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages/target_tracking/target_pos.py to target_pos.cpython-310.pyc
+[13.225s] byte-compiling /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages/target_tracking/__init__.py to __init__.cpython-310.pyc
+[13.226s] byte-compiling /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages/target_tracking/test_rclpy.py to test_rclpy.cpython-310.pyc
+[13.227s] byte-compiling /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages/target_tracking/test_aruco.py to test_aruco.cpython-310.pyc
+[13.228s] running install_data
+[13.234s] creating /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/share/ament_index
+[13.235s] creating /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/share/ament_index/resource_index
+[13.236s] creating /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/share/ament_index/resource_index/packages
+[13.236s] copying resource/target_tracking -> /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/share/ament_index/resource_index/packages
+[13.237s] copying package.xml -> /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/share/target_tracking
+[13.241s] running install_egg_info
+[13.241s] Copying ../build/target_tracking/target_tracking.egg-info to /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages/target_tracking-0.0.0-py3.10.egg-info
+[13.255s] running install_scripts
+[13.451s] Installing target_pos script to /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/target_tracking
+[13.460s] writing list of installed files to '/home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/install.log'
+[13.754s] Invoked command in '/home/group4/Documents/EECE5554-FP/navphy_ws/target_tracking' returned '0': PYTHONPATH=/home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/target_tracking build --build-base /home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/build install --record /home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/install.log --single-version-externally-managed install_data

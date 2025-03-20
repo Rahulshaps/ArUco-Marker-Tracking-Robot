@@ -1,0 +1,4 @@
+Invoking command in '/home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/build/sim_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/build/sim_bot -- -j14 -l14
+Invoked command in '/home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/build/sim_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/build/sim_bot -- -j14 -l14
+Invoking command in '/home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/build/sim_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/build/sim_bot
+Invoked command in '/home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/build/sim_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/build/sim_bot

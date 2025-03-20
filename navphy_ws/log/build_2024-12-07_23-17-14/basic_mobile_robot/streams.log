@@ -1,0 +1,229 @@
+[0.140s] Invoking command in '/home/group4/Documents/EECE5554-FP/navphy_ws/build/basic_mobile_robot': CMAKE_PREFIX_PATH=/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking:/home/group4/Documents/EECE5554-FP/navphy_ws/install/aruco_track:/opt/ros/humble /usr/bin/cmake /home/group4/Documents/EECE5554-FP/navphy_ws/basic_mobile_robot -DCMAKE_INSTALL_PREFIX=/home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot
+[1.993s] -- The C compiler identification is GNU 11.4.0
+[2.237s] -- The CXX compiler identification is GNU 11.4.0
+[2.295s] -- Detecting C compiler ABI info
+[2.722s] -- Detecting C compiler ABI info - done
+[2.749s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.762s] -- Detecting C compile features
+[2.766s] -- Detecting C compile features - done
+[2.784s] -- Detecting CXX compiler ABI info
+[3.217s] -- Detecting CXX compiler ABI info - done
+[3.245s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.246s] -- Detecting CXX compile features
+[3.248s] -- Detecting CXX compile features - done
+[3.322s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.440s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.401s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[5.444s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[6.334s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.424s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.646s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[7.047s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.453s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.739s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[8.817s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[10.511s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[11.187s] -- Found FastRTPS: /opt/ros/humble/include  
+[12.096s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[12.312s] -- Looking for pthread.h
+[13.329s] -- Looking for pthread.h - found
+[13.337s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[14.154s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[14.169s] -- Found Threads: TRUE  
+[15.148s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[15.377s] -- Found nav2_msgs: 1.1.17 (/opt/ros/humble/share/nav2_msgs/cmake)
+[16.391s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[16.829s] -- Checking for module 'eigen3'
+[16.977s] --   Found eigen3, version 3.4.0
+[17.331s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[17.332s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[17.764s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[18.096s] -- Checking for module 'flann'
+[18.282s] --   Found flann, version 1.9.1
+[18.754s] -- Found FLANN: /usr/lib/aarch64-linux-gnu/libflann_cpp.so  
+[18.756s] -- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)
+[19.056s] -- Found GLEW: /usr/lib/aarch64-linux-gnu/libGLEW.so  
+[19.120s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[20.945s] -- Found MPI_C: /usr/lib/aarch64-linux-gnu/libmpi.so (found version "3.1") 
+[20.958s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[20.995s] -- Found JsonCpp: /usr/lib/aarch64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[21.074s] -- Found ZLIB: /usr/lib/aarch64-linux-gnu/libz.so (found version "1.2.11") 
+[21.201s] -- Found PNG: /usr/lib/aarch64-linux-gnu/libpng.so (found version "1.6.37") 
+[21.570s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[22.689s] -- Found X11: /usr/include   
+[22.703s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so
+[23.709s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so - found
+[23.712s] -- Looking for gethostbyname
+[24.480s] -- Looking for gethostbyname - found
+[24.481s] -- Looking for connect
+[25.270s] -- Looking for connect - found
+[25.277s] -- Looking for remove
+[26.089s] -- Looking for remove - found
+[26.093s] -- Looking for shmat
+[26.945s] -- Looking for shmat - found
+[26.946s] -- Looking for IceConnectionNumber in ICE
+[27.870s] -- Looking for IceConnectionNumber in ICE - found
+[28.746s] -- Found EXPAT: /usr/lib/aarch64-linux-gnu/libexpat.so (found version "2.4.7") 
+[28.775s] -- Found double-conversion: /usr/lib/aarch64-linux-gnu/libdouble-conversion.so  
+[28.822s] -- Found LZ4: /usr/lib/aarch64-linux-gnu/liblz4.so (found version "1.9.3") 
+[28.857s] -- Found LZMA: /usr/lib/aarch64-linux-gnu/liblzma.so (found version "5.2.5") 
+[29.388s] -- Found JPEG: /usr/lib/aarch64-linux-gnu/libjpeg.so (found version "80") 
+[29.418s] -- Found TIFF: /usr/lib/aarch64-linux-gnu/libtiff.so (found version "4.3.0")  
+[29.437s] -- Found Freetype: /usr/lib/aarch64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[29.489s] -- Found utf8cpp: /usr/include/utf8cpp  
+[30.064s] -- Checking for module 'libusb-1.0'
+[30.156s] --   Found libusb-1.0, version 1.0.25
+[30.440s] -- Found libusb: /usr/lib/aarch64-linux-gnu/libusb-1.0.so  
+[30.452s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[30.453s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[30.754s] -- Found OpenNI2: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[30.764s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[30.765s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[31.547s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[31.577s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[31.616s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[32.338s] -- Found Qhull version 8.0.2
+[32.991s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[33.614s] -- looking for PCL_COMMON
+[33.625s] -- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  
+[33.625s] -- looking for PCL_KDTREE
+[33.630s] -- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  
+[33.631s] -- looking for PCL_OCTREE
+[33.634s] -- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  
+[33.635s] -- looking for PCL_SEARCH
+[33.638s] -- Found PCL_SEARCH: /usr/lib/aarch64-linux-gnu/libpcl_search.so  
+[33.639s] -- looking for PCL_SAMPLE_CONSENSUS
+[33.643s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/aarch64-linux-gnu/libpcl_sample_consensus.so  
+[33.644s] -- looking for PCL_FILTERS
+[33.647s] -- Found PCL_FILTERS: /usr/lib/aarch64-linux-gnu/libpcl_filters.so  
+[33.647s] -- looking for PCL_2D
+[33.648s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[33.649s] -- looking for PCL_GEOMETRY
+[33.650s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[33.651s] -- looking for PCL_IO
+[33.654s] -- Found PCL_IO: /usr/lib/aarch64-linux-gnu/libpcl_io.so  
+[33.655s] -- looking for PCL_FEATURES
+[33.658s] -- Found PCL_FEATURES: /usr/lib/aarch64-linux-gnu/libpcl_features.so  
+[33.659s] -- looking for PCL_ML
+[33.663s] -- Found PCL_ML: /usr/lib/aarch64-linux-gnu/libpcl_ml.so  
+[33.663s] -- looking for PCL_SEGMENTATION
+[33.666s] -- Found PCL_SEGMENTATION: /usr/lib/aarch64-linux-gnu/libpcl_segmentation.so  
+[33.668s] -- looking for PCL_VISUALIZATION
+[33.681s] -- Found PCL_VISUALIZATION: /usr/lib/aarch64-linux-gnu/libpcl_visualization.so  
+[33.682s] -- looking for PCL_SURFACE
+[33.684s] -- Found PCL_SURFACE: /usr/lib/aarch64-linux-gnu/libpcl_surface.so  
+[33.685s] -- looking for PCL_REGISTRATION
+[33.688s] -- Found PCL_REGISTRATION: /usr/lib/aarch64-linux-gnu/libpcl_registration.so  
+[33.689s] -- looking for PCL_KEYPOINTS
+[33.693s] -- Found PCL_KEYPOINTS: /usr/lib/aarch64-linux-gnu/libpcl_keypoints.so  
+[33.693s] -- looking for PCL_TRACKING
+[33.696s] -- Found PCL_TRACKING: /usr/lib/aarch64-linux-gnu/libpcl_tracking.so  
+[33.697s] -- looking for PCL_RECOGNITION
+[33.701s] -- Found PCL_RECOGNITION: /usr/lib/aarch64-linux-gnu/libpcl_recognition.so  
+[33.702s] -- looking for PCL_STEREO
+[33.705s] -- Found PCL_STEREO: /usr/lib/aarch64-linux-gnu/libpcl_stereo.so  
+[33.706s] -- looking for PCL_APPS
+[33.709s] -- Found PCL_APPS: /usr/lib/aarch64-linux-gnu/libpcl_apps.so  
+[33.711s] -- looking for PCL_IN_HAND_SCANNER
+[33.713s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[33.713s] -- looking for PCL_MODELER
+[33.714s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[33.715s] -- looking for PCL_POINT_CLOUD_EDITOR
+[33.720s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[33.720s] -- looking for PCL_OUTOFCORE
+[33.723s] -- Found PCL_OUTOFCORE: /usr/lib/aarch64-linux-gnu/libpcl_outofcore.so  
+[33.724s] -- looking for PCL_PEOPLE
+[33.728s] -- Found PCL_PEOPLE: /usr/lib/aarch64-linux-gnu/libpcl_people.so  
+[33.732s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[33.916s] -- Found laser_geometry: 2.4.0 (/opt/ros/humble/share/laser_geometry/cmake)
+[34.212s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[34.429s] -- Found tf2_eigen: 0.25.9 (/opt/ros/humble/share/tf2_eigen/cmake)
+[35.012s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[35.637s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[35.638s] -- Configured cppcheck include dirs: /home/group4/Documents/EECE5554-FP/navphy_ws/basic_mobile_robot/include;$<BUILD_INTERFACE:/home/group4/Documents/EECE5554-FP/navphy_ws/basic_mobile_robot/include>
+[35.639s] -- Configured cppcheck exclude dirs and/or files: 
+[35.647s] -- Added test 'flake8' to check Python code syntax and style conventions
+[35.659s] -- Added test 'lint_cmake' to check CMake code style
+[35.668s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[35.702s] -- Added test 'uncrustify' to check C / C++ code style
+[35.703s] -- Configured uncrustify additional arguments: 
+[35.711s] -- Added test 'xmllint' to check XML markup files
+[35.723s] -- Configuring done
+[36.139s] -- Generating done
+[36.202s] -- Build files have been written to: /home/group4/Documents/EECE5554-FP/navphy_ws/build/basic_mobile_robot
+[36.284s] Invoked command in '/home/group4/Documents/EECE5554-FP/navphy_ws/build/basic_mobile_robot' returned '0': CMAKE_PREFIX_PATH=/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking:/home/group4/Documents/EECE5554-FP/navphy_ws/install/aruco_track:/opt/ros/humble /usr/bin/cmake /home/group4/Documents/EECE5554-FP/navphy_ws/basic_mobile_robot -DCMAKE_INSTALL_PREFIX=/home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot
+[36.298s] Invoking command in '/home/group4/Documents/EECE5554-FP/navphy_ws/build/basic_mobile_robot': CMAKE_PREFIX_PATH=/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking:/home/group4/Documents/EECE5554-FP/navphy_ws/install/aruco_track:/opt/ros/humble /usr/bin/cmake --build /home/group4/Documents/EECE5554-FP/navphy_ws/build/basic_mobile_robot -- -j4 -l4
+[36.539s] [ 33%] [32mBuilding CXX object CMakeFiles/lidar_odometry_node.dir/src/lidar_odometry_node.cpp.o[0m
+[36.541s] [ 66%] [32mBuilding CXX object CMakeFiles/lidar_odometry_node.dir/src/lidar_odometry.cpp.o[0m
+[287.283s] [100%] [32m[1mLinking CXX executable lidar_odometry_node[0m
+[298.509s] [100%] Built target lidar_odometry_node
+[298.723s] Invoked command in '/home/group4/Documents/EECE5554-FP/navphy_ws/build/basic_mobile_robot' returned '0': CMAKE_PREFIX_PATH=/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking:/home/group4/Documents/EECE5554-FP/navphy_ws/install/aruco_track:/opt/ros/humble /usr/bin/cmake --build /home/group4/Documents/EECE5554-FP/navphy_ws/build/basic_mobile_robot -- -j4 -l4
+[298.873s] Invoking command in '/home/group4/Documents/EECE5554-FP/navphy_ws/build/basic_mobile_robot': CMAKE_PREFIX_PATH=/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking:/home/group4/Documents/EECE5554-FP/navphy_ws/install/aruco_track:/opt/ros/humble /usr/bin/cmake --install /home/group4/Documents/EECE5554-FP/navphy_ws/build/basic_mobile_robot
+[298.914s] -- Install configuration: ""
+[298.921s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/behavior_trees
+[298.941s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/behavior_trees/navigate_to_pose_with_updates.xml
+[298.950s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/behavior_trees/navigate_to_pose_w_replanning_and_recovery.xml
+[298.953s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/config
+[298.958s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/config/ekf.yaml
+[298.962s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/config/nav2_params.yaml
+[298.968s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/config/doslam.yaml
+[298.971s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/include
+[298.975s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/include/lidar_odometry
+[298.979s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/include/lidar_odometry/utils.hpp
+[298.982s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/include/lidar_odometry/lidar_odometry.hpp
+[298.985s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch
+[298.989s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch/urdf_visualizer.launch.py
+[298.992s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch/target_tracking.launch.py
+[298.994s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch/slam.launch.py
+[298.998s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch/rplidar.launch.py
+[299.001s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch/nav_physical.launch.py
+[299.004s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch/teleop.launch.py
+[299.007s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/maps
+[299.011s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/maps/slam_map.pgm
+[299.023s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/maps/slam_map.yaml
+[299.026s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/models
+[299.031s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/common_properties.urdf
+[299.033s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/turtlebot_burger.urdf
+[299.036s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes
+[299.042s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/sensors
+[299.046s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/sensors/astra.jpg
+[299.053s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/sensors/r200.dae
+[299.068s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/sensors/astra.dae
+[299.390s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/sensors/r200.jpg
+[299.392s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/sensors/lds.stl
+[299.418s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/bases
+[299.421s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/bases/waffle_base.stl
+[299.624s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/bases/waffle_pi_base.stl
+[299.760s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/bases/waffle_pi_base_for_open_manipulator.stl
+[299.922s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/bases/waffle_base_for_open_manipulator.stl
+[300.069s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/bases/burger_base.stl
+[300.153s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/wheels
+[300.160s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/wheels/right_tire.stl
+[300.223s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/wheels/left_tire.stl
+[300.283s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/rviz
+[300.287s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/rviz/urdf_config.rviz
+[300.292s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/rviz/slam.rviz
+[300.297s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/rviz/turtlebot.rviz
+[300.302s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/rviz/teleop.rviz
+[300.308s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/rviz/test.rviz
+[300.319s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/src
+[300.327s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/src/lidar_odometry.cpp
+[300.334s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/src/lidar_odometry_node.cpp
+[300.342s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/lib/basic_mobile_robot/lidar_odometry_node
+[300.409s] -- Set runtime path of "/home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/lib/basic_mobile_robot/lidar_odometry_node" to ""
+[300.436s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/ament_index/resource_index/package_run_dependencies/basic_mobile_robot
+[300.452s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/ament_index/resource_index/parent_prefix_path/basic_mobile_robot
+[300.496s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/environment/ament_prefix_path.sh
+[300.516s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/environment/ament_prefix_path.dsv
+[300.526s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/environment/path.sh
+[300.534s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/environment/path.dsv
+[300.541s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/local_setup.bash
+[300.548s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/local_setup.sh
+[300.558s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/local_setup.zsh
+[300.566s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/local_setup.dsv
+[300.571s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/package.dsv
+[300.584s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/ament_index/resource_index/packages/basic_mobile_robot
+[300.594s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/cmake/basic_mobile_robotConfig.cmake
+[300.598s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/cmake/basic_mobile_robotConfig-version.cmake
+[300.605s] -- Installing: /home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/package.xml
+[300.639s] Invoked command in '/home/group4/Documents/EECE5554-FP/navphy_ws/build/basic_mobile_robot' returned '0': CMAKE_PREFIX_PATH=/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking:/home/group4/Documents/EECE5554-FP/navphy_ws/install/aruco_track:/opt/ros/humble /usr/bin/cmake --install /home/group4/Documents/EECE5554-FP/navphy_ws/build/basic_mobile_robot

@@ -1,0 +1,186 @@
+[0.000000] (-) TimerEvent: {}
+[0.002810] (-) JobUnselected: {'identifier': 'basic_mobile_robot'}
+[0.005396] (-) JobUnselected: {'identifier': 'navigation'}
+[0.009959] (target_tracking) JobQueued: {'identifier': 'target_tracking', 'dependencies': OrderedDict()}
+[0.014362] (target_tracking) JobStarted: {'identifier': 'target_tracking'}
+[0.104940] (-) TimerEvent: {}
+[0.210027] (-) TimerEvent: {}
+[0.312447] (-) TimerEvent: {}
+[0.414359] (-) TimerEvent: {}
+[0.516530] (-) TimerEvent: {}
+[0.617854] (-) TimerEvent: {}
+[0.720102] (-) TimerEvent: {}
+[0.822515] (-) TimerEvent: {}
+[0.924012] (-) TimerEvent: {}
+[1.025126] (-) TimerEvent: {}
+[1.126689] (-) TimerEvent: {}
+[1.228891] (-) TimerEvent: {}
+[1.330935] (-) TimerEvent: {}
+[1.433069] (-) TimerEvent: {}
+[1.535332] (-) TimerEvent: {}
+[1.636220] (-) TimerEvent: {}
+[1.737190] (-) TimerEvent: {}
+[1.838346] (-) TimerEvent: {}
+[1.939756] (-) TimerEvent: {}
+[2.041359] (-) TimerEvent: {}
+[2.142840] (-) TimerEvent: {}
+[2.243819] (-) TimerEvent: {}
+[2.345120] (-) TimerEvent: {}
+[2.446287] (-) TimerEvent: {}
+[2.547252] (-) TimerEvent: {}
+[2.650896] (-) TimerEvent: {}
+[2.754531] (-) TimerEvent: {}
+[2.856026] (-) TimerEvent: {}
+[2.958887] (-) TimerEvent: {}
+[3.059989] (-) TimerEvent: {}
+[3.161850] (-) TimerEvent: {}
+[3.263229] (-) TimerEvent: {}
+[3.364622] (-) TimerEvent: {}
+[3.466660] (-) TimerEvent: {}
+[3.569672] (-) TimerEvent: {}
+[3.676649] (-) TimerEvent: {}
+[3.784979] (-) TimerEvent: {}
+[3.886858] (-) TimerEvent: {}
+[3.988829] (-) TimerEvent: {}
+[4.092047] (-) TimerEvent: {}
+[4.193660] (-) TimerEvent: {}
+[4.295751] (-) TimerEvent: {}
+[4.399916] (-) TimerEvent: {}
+[4.504920] (-) TimerEvent: {}
+[4.608618] (-) TimerEvent: {}
+[4.710629] (-) TimerEvent: {}
+[4.811969] (-) TimerEvent: {}
+[4.913102] (-) TimerEvent: {}
+[5.014705] (-) TimerEvent: {}
+[5.116336] (-) TimerEvent: {}
+[5.217512] (-) TimerEvent: {}
+[5.318883] (-) TimerEvent: {}
+[5.420878] (-) TimerEvent: {}
+[5.522660] (-) TimerEvent: {}
+[5.624149] (-) TimerEvent: {}
+[5.725353] (-) TimerEvent: {}
+[5.826829] (-) TimerEvent: {}
+[5.929856] (-) TimerEvent: {}
+[6.031330] (-) TimerEvent: {}
+[6.132726] (-) TimerEvent: {}
+[6.234311] (-) TimerEvent: {}
+[6.336352] (-) TimerEvent: {}
+[6.440159] (-) TimerEvent: {}
+[6.543339] (-) TimerEvent: {}
+[6.644349] (-) TimerEvent: {}
+[6.746405] (-) TimerEvent: {}
+[6.849716] (-) TimerEvent: {}
+[6.952906] (-) TimerEvent: {}
+[7.056715] (-) TimerEvent: {}
+[7.168973] (-) TimerEvent: {}
+[7.271148] (-) TimerEvent: {}
+[7.373386] (-) TimerEvent: {}
+[7.474845] (-) TimerEvent: {}
+[7.578867] (-) TimerEvent: {}
+[7.681713] (-) TimerEvent: {}
+[7.785185] (-) TimerEvent: {}
+[7.887056] (-) TimerEvent: {}
+[7.990990] (-) TimerEvent: {}
+[8.094096] (-) TimerEvent: {}
+[8.195866] (-) TimerEvent: {}
+[8.299775] (-) TimerEvent: {}
+[8.401437] (-) TimerEvent: {}
+[8.505103] (-) TimerEvent: {}
+[8.606983] (-) TimerEvent: {}
+[8.709921] (-) TimerEvent: {}
+[8.816419] (-) TimerEvent: {}
+[8.919514] (-) TimerEvent: {}
+[9.024958] (-) TimerEvent: {}
+[9.130417] (-) TimerEvent: {}
+[9.142804] (target_tracking) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/target_tracking', 'build', '--build-base', '/home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/build', 'install', '--record', '/home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/group4/Documents/EECE5554-FP/navphy_ws/target_tracking', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'group4', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/group4', 'OLDPWD': '/home/group4/Documents/EECE5554-FP', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1524', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/group4/Documents/EECE5554-FP/navphy_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'group4', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'group4', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/group4-desktop:@/tmp/.ICE-unix/1179,unix/group4-desktop:/tmp/.ICE-unix/1179', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6ffb5d3d_958c_4f87_a3e3_02e8bedacc3c', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.7RJHY2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.113', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking:/home/group4/Documents/EECE5554-FP/navphy_ws/install/aruco_track:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages:/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages:/home/group4/Documents/EECE5554-FP/navphy_ws/install/aruco_track/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[9.231368] (-) TimerEvent: {}
+[9.335413] (-) TimerEvent: {}
+[9.438253] (-) TimerEvent: {}
+[9.539868] (-) TimerEvent: {}
+[9.641556] (-) TimerEvent: {}
+[9.743567] (-) TimerEvent: {}
+[9.846209] (-) TimerEvent: {}
+[9.948330] (-) TimerEvent: {}
+[10.050669] (-) TimerEvent: {}
+[10.152595] (-) TimerEvent: {}
+[10.254399] (-) TimerEvent: {}
+[10.357452] (-) TimerEvent: {}
+[10.460167] (-) TimerEvent: {}
+[10.561913] (-) TimerEvent: {}
+[10.663362] (-) TimerEvent: {}
+[10.765354] (-) TimerEvent: {}
+[10.868918] (-) TimerEvent: {}
+[10.970909] (-) TimerEvent: {}
+[11.072800] (-) TimerEvent: {}
+[11.176302] (-) TimerEvent: {}
+[11.277620] (-) TimerEvent: {}
+[11.378772] (-) TimerEvent: {}
+[11.480660] (-) TimerEvent: {}
+[11.583917] (-) TimerEvent: {}
+[11.685569] (-) TimerEvent: {}
+[11.787409] (-) TimerEvent: {}
+[11.893280] (-) TimerEvent: {}
+[11.997094] (-) TimerEvent: {}
+[12.099556] (-) TimerEvent: {}
+[12.202825] (-) TimerEvent: {}
+[12.305460] (-) TimerEvent: {}
+[12.407066] (-) TimerEvent: {}
+[12.508485] (-) TimerEvent: {}
+[12.611136] (-) TimerEvent: {}
+[12.712826] (-) TimerEvent: {}
+[12.816685] (-) TimerEvent: {}
+[12.918400] (-) TimerEvent: {}
+[13.022198] (-) TimerEvent: {}
+[13.123990] (-) TimerEvent: {}
+[13.126107] (target_tracking) StdoutLine: {'line': b'running egg_info\n'}
+[13.133162] (target_tracking) StdoutLine: {'line': b'creating ../build/target_tracking/target_tracking.egg-info\n'}
+[13.134587] (target_tracking) StdoutLine: {'line': b'writing ../build/target_tracking/target_tracking.egg-info/PKG-INFO\n'}
+[13.137538] (target_tracking) StdoutLine: {'line': b'writing dependency_links to ../build/target_tracking/target_tracking.egg-info/dependency_links.txt\n'}
+[13.139347] (target_tracking) StdoutLine: {'line': b'writing entry points to ../build/target_tracking/target_tracking.egg-info/entry_points.txt\n'}
+[13.141424] (target_tracking) StdoutLine: {'line': b'writing requirements to ../build/target_tracking/target_tracking.egg-info/requires.txt\n'}
+[13.143734] (target_tracking) StdoutLine: {'line': b'writing top-level names to ../build/target_tracking/target_tracking.egg-info/top_level.txt\n'}
+[13.149837] (target_tracking) StdoutLine: {'line': b"writing manifest file '../build/target_tracking/target_tracking.egg-info/SOURCES.txt'\n"}
+[13.162235] (target_tracking) StdoutLine: {'line': b"reading manifest file '../build/target_tracking/target_tracking.egg-info/SOURCES.txt'\n"}
+[13.167914] (target_tracking) StdoutLine: {'line': b"writing manifest file '../build/target_tracking/target_tracking.egg-info/SOURCES.txt'\n"}
+[13.168947] (target_tracking) StdoutLine: {'line': b'running build\n'}
+[13.170046] (target_tracking) StdoutLine: {'line': b'running build_py\n'}
+[13.174221] (target_tracking) StdoutLine: {'line': b'creating /home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/build\n'}
+[13.177988] (target_tracking) StdoutLine: {'line': b'creating /home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/build/lib\n'}
+[13.181864] (target_tracking) StdoutLine: {'line': b'creating /home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/build/lib/target_tracking\n'}
+[13.185638] (target_tracking) StdoutLine: {'line': b'copying target_tracking/target_pos.py -> /home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/build/lib/target_tracking\n'}
+[13.187828] (target_tracking) StdoutLine: {'line': b'copying target_tracking/__init__.py -> /home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/build/lib/target_tracking\n'}
+[13.189735] (target_tracking) StdoutLine: {'line': b'copying target_tracking/test_rclpy.py -> /home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/build/lib/target_tracking\n'}
+[13.191590] (target_tracking) StdoutLine: {'line': b'copying target_tracking/test_aruco.py -> /home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/build/lib/target_tracking\n'}
+[13.192596] (target_tracking) StdoutLine: {'line': b'running install\n'}
+[13.193514] (target_tracking) StdoutLine: {'line': b'running install_lib\n'}
+[13.205332] (target_tracking) StdoutLine: {'line': b'creating /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages/target_tracking\n'}
+[13.207354] (target_tracking) StdoutLine: {'line': b'copying /home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/build/lib/target_tracking/target_pos.py -> /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages/target_tracking\n'}
+[13.208806] (target_tracking) StdoutLine: {'line': b'copying /home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/build/lib/target_tracking/__init__.py -> /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages/target_tracking\n'}
+[13.230761] (-) TimerEvent: {}
+[13.232828] (target_tracking) StdoutLine: {'line': b'copying /home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/build/lib/target_tracking/test_rclpy.py -> /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages/target_tracking\n'}
+[13.233906] (target_tracking) StdoutLine: {'line': b'copying /home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/build/lib/target_tracking/test_aruco.py -> /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages/target_tracking\n'}
+[13.236793] (target_tracking) StdoutLine: {'line': b'byte-compiling /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages/target_tracking/target_pos.py to target_pos.cpython-310.pyc\n'}
+[13.237881] (target_tracking) StdoutLine: {'line': b'byte-compiling /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages/target_tracking/__init__.py to __init__.cpython-310.pyc\n'}
+[13.240331] (target_tracking) StdoutLine: {'line': b'byte-compiling /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages/target_tracking/test_rclpy.py to test_rclpy.cpython-310.pyc\n'}
+[13.241232] (target_tracking) StdoutLine: {'line': b'byte-compiling /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages/target_tracking/test_aruco.py to test_aruco.cpython-310.pyc\n'}
+[13.241919] (target_tracking) StdoutLine: {'line': b'running install_data\n'}
+[13.242576] (target_tracking) StdoutLine: {'line': b'creating /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/share/ament_index\n'}
+[13.249335] (target_tracking) StdoutLine: {'line': b'creating /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/share/ament_index/resource_index\n'}
+[13.250105] (target_tracking) StdoutLine: {'line': b'creating /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/share/ament_index/resource_index/packages\n'}
+[13.250819] (target_tracking) StdoutLine: {'line': b'copying resource/target_tracking -> /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/share/ament_index/resource_index/packages\n'}
+[13.251430] (target_tracking) StdoutLine: {'line': b'copying package.xml -> /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/share/target_tracking\n'}
+[13.253384] (target_tracking) StdoutLine: {'line': b'running install_egg_info\n'}
+[13.255688] (target_tracking) StdoutLine: {'line': b'Copying ../build/target_tracking/target_tracking.egg-info to /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages/target_tracking-0.0.0-py3.10.egg-info\n'}
+[13.269220] (target_tracking) StdoutLine: {'line': b'running install_scripts\n'}
+[13.330954] (-) TimerEvent: {}
+[13.432279] (-) TimerEvent: {}
+[13.464686] (target_tracking) StdoutLine: {'line': b'Installing target_pos script to /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/target_tracking\n'}
+[13.473422] (target_tracking) StdoutLine: {'line': b"writing list of installed files to '/home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/install.log'\n"}
+[13.533414] (-) TimerEvent: {}
+[13.637543] (-) TimerEvent: {}
+[13.738833] (-) TimerEvent: {}
+[13.761368] (target_tracking) CommandEnded: {'returncode': 0}
+[13.839578] (-) TimerEvent: {}
+[13.948621] (-) TimerEvent: {}
+[13.953257] (target_tracking) JobEnded: {'identifier': 'target_tracking', 'rc': 0}
+[13.959859] (-) EventReactorShutdown: {}

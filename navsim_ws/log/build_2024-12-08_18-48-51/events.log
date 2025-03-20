@@ -1,0 +1,243 @@
+[0.000000] (-) TimerEvent: {}
+[0.000277] (sim_bot) JobQueued: {'identifier': 'sim_bot', 'dependencies': OrderedDict()}
+[0.000379] (sim_bot) JobStarted: {'identifier': 'sim_bot'}
+[0.005710] (sim_bot) JobProgress: {'identifier': 'sim_bot', 'progress': 'cmake'}
+[0.006014] (sim_bot) Command: {'cmd': ['/usr/bin/cmake', '/home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/sim_bot', '-DCMAKE_INSTALL_PREFIX=/home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot'], 'cwd': '/home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/build/sim_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'arjun-laptop'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/arjun-laptop'), ('OLDPWD', '/home/arjun-laptop/Documents/EECE5554-FP'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1785'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install:/home/arjun-laptop/Documents/G.L.I.M.P.S.E/navsim_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'arjun-laptop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'arjun-laptop'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/arjun-laptop:@/tmp/.ICE-unix/1753,unix/arjun-laptop:/tmp/.ICE-unix/1753'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/38401ac5_92b4_4071_a36f_37cb2503b430'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XL8TY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/arjun-laptop/Documents/G.L.I.M.P.S.E/navsim_ws/install/sim_bot:/home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/build/sim_bot'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/arjun-laptop/Documents/G.L.I.M.P.S.E/navsim_ws/install/sim_bot:/home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot:/opt/ros/humble')]), 'shell': False}
+[0.050732] (sim_bot) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.089923] (sim_bot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.093895] (sim_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099224] (-) TimerEvent: {}
+[0.147714] (sim_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.153497] (sim_bot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.153691] (sim_bot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.154012] (sim_bot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.156383] (sim_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199370] (-) TimerEvent: {}
+[0.212057] (sim_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.217316] (sim_bot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.217714] (sim_bot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.217916] (sim_bot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.218781] (sim_bot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299487] (-) TimerEvent: {}
+[0.314212] (sim_bot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.371093] (sim_bot) StdoutLine: {'line': b'-- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[0.372080] (sim_bot) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.394363] (sim_bot) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.396918] (sim_bot) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.399572] (-) TimerEvent: {}
+[0.401307] (sim_bot) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.407702] (sim_bot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.416373] (sim_bot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.441179] (sim_bot) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.442445] (sim_bot) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.499690] (-) TimerEvent: {}
+[0.504330] (sim_bot) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.527829] (sim_bot) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.559399] (sim_bot) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.563490] (sim_bot) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.599830] (-) TimerEvent: {}
+[0.617506] (sim_bot) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.617693] (sim_bot) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.667336] (sim_bot) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.668514] (sim_bot) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.696857] (sim_bot) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.699896] (-) TimerEvent: {}
+[0.704622] (sim_bot) StdoutLine: {'line': b'-- Found nav2_msgs: 1.1.17 (/opt/ros/humble/share/nav2_msgs/cmake)\n'}
+[0.743603] (sim_bot) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.765163] (sim_bot) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[0.780833] (sim_bot) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[0.800060] (-) TimerEvent: {}
+[0.814535] (sim_bot) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[0.814809] (sim_bot) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.827501] (sim_bot) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization \n'}
+[0.837131] (sim_bot) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[0.847345] (sim_bot) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[0.879212] (sim_bot) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[0.879394] (sim_bot) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[0.899526] (sim_bot) StdoutLine: {'line': b'-- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  \n'}
+[0.900100] (-) TimerEvent: {}
+[0.902515] (sim_bot) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX \n'}
+[1.000288] (-) TimerEvent: {}
+[1.011092] (sim_bot) StdoutLine: {'line': b'-- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") \n'}
+[1.011269] (sim_bot) StdoutLine: {'line': b'-- Found MPI: TRUE (found version "3.1") found components: C \n'}
+[1.012540] (sim_bot) StdoutLine: {'line': b'-- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") \n'}
+[1.017297] (sim_bot) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[1.027045] (sim_bot) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") \n'}
+[1.033038] (sim_bot) StdoutLine: {'line': b'-- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") \n'}
+[1.100398] (-) TimerEvent: {}
+[1.101368] (sim_bot) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[1.101520] (sim_bot) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[1.158576] (sim_bot) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[1.158792] (sim_bot) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[1.200540] (-) TimerEvent: {}
+[1.215209] (sim_bot) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[1.215572] (sim_bot) StdoutLine: {'line': b'-- Looking for connect\n'}
+[1.264616] (sim_bot) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[1.264931] (sim_bot) StdoutLine: {'line': b'-- Looking for remove\n'}
+[1.300677] (-) TimerEvent: {}
+[1.315557] (sim_bot) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[1.315844] (sim_bot) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[1.366042] (sim_bot) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[1.366338] (sim_bot) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[1.400791] (-) TimerEvent: {}
+[1.416448] (sim_bot) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[1.481703] (sim_bot) StdoutLine: {'line': b'-- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") \n'}
+[1.482596] (sim_bot) StdoutLine: {'line': b'-- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  \n'}
+[1.483711] (sim_bot) StdoutLine: {'line': b'-- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") \n'}
+[1.484533] (sim_bot) StdoutLine: {'line': b'-- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") \n'}
+[1.491072] (sim_bot) StdoutLine: {'line': b'-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") \n'}
+[1.493638] (sim_bot) StdoutLine: {'line': b'-- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  \n'}
+[1.495831] (sim_bot) StdoutLine: {'line': b'-- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") \n'}
+[1.498907] (sim_bot) StdoutLine: {'line': b'-- Found utf8cpp: /usr/include/utf8cpp  \n'}
+[1.500854] (-) TimerEvent: {}
+[1.560950] (sim_bot) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[1.570650] (sim_bot) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[1.600545] (sim_bot) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[1.600887] (-) TimerEvent: {}
+[1.601095] (sim_bot) StdoutLine: {'line': b'-- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") \n'}
+[1.601194] (sim_bot) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.644913] (sim_bot) StdoutLine: {'line': b'-- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") \n'}
+[1.645146] (sim_bot) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.645206] (sim_bot) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[1.701074] (-) TimerEvent: {}
+[1.737939] (sim_bot) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.744005] (sim_bot) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.749669] (sim_bot) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.801203] (-) TimerEvent: {}
+[1.842841] (sim_bot) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[1.901362] (-) TimerEvent: {}
+[1.953263] (sim_bot) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.001499] (-) TimerEvent: {}
+[2.040376] (sim_bot) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[2.040940] (sim_bot) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[2.041352] (sim_bot) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[2.041816] (sim_bot) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[2.042026] (sim_bot) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[2.042154] (sim_bot) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[2.042272] (sim_bot) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[2.042547] (sim_bot) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[2.042752] (sim_bot) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[2.042951] (sim_bot) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[2.043050] (sim_bot) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[2.043288] (sim_bot) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[2.043439] (sim_bot) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[2.043525] (sim_bot) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[2.043751] (sim_bot) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[2.043878] (sim_bot) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[2.043973] (sim_bot) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[2.044195] (sim_bot) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[2.044270] (sim_bot) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[2.044574] (sim_bot) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[2.044765] (sim_bot) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[2.045144] (sim_bot) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[2.045241] (sim_bot) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[2.045558] (sim_bot) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[2.045698] (sim_bot) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[2.046109] (sim_bot) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[2.046248] (sim_bot) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[2.046658] (sim_bot) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[2.046757] (sim_bot) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[2.047193] (sim_bot) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[2.047312] (sim_bot) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[2.047734] (sim_bot) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[2.047840] (sim_bot) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[2.048270] (sim_bot) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[2.048363] (sim_bot) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[2.048786] (sim_bot) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[2.048938] (sim_bot) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[2.049355] (sim_bot) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[2.049437] (sim_bot) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[2.049843] (sim_bot) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[2.050180] (sim_bot) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[2.050319] (sim_bot) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[2.050394] (sim_bot) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[2.050516] (sim_bot) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[2.050586] (sim_bot) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[2.050723] (sim_bot) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[2.050792] (sim_bot) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[2.051222] (sim_bot) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[2.051320] (sim_bot) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[2.051779] (sim_bot) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[2.052231] (sim_bot) StdoutLine: {'line': b'-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  \n'}
+[2.056586] (sim_bot) StdoutLine: {'line': b'-- Found laser_geometry: 2.4.0 (/opt/ros/humble/share/laser_geometry/cmake)\n'}
+[2.066357] (sim_bot) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[2.083090] (sim_bot) StdoutLine: {'line': b'-- Found tf2_eigen: 0.25.9 (/opt/ros/humble/share/tf2_eigen/cmake)\n'}
+[2.101600] (-) TimerEvent: {}
+[2.121344] (sim_bot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.168981] (sim_bot) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.169436] (sim_bot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.169779] (sim_bot) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.170575] (sim_bot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.171117] (sim_bot) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.175478] (sim_bot) StdoutLine: {'line': b'-- Generating done\n'}
+[2.177652] (sim_bot) StdoutLine: {'line': b'-- Build files have been written to: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/build/sim_bot\n'}
+[2.190413] (sim_bot) CommandEnded: {'returncode': 0}
+[2.192471] (sim_bot) JobProgress: {'identifier': 'sim_bot', 'progress': 'build'}
+[2.192585] (sim_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/build/sim_bot', '--', '-j14', '-l14'], 'cwd': '/home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/build/sim_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'arjun-laptop'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/arjun-laptop'), ('OLDPWD', '/home/arjun-laptop/Documents/EECE5554-FP'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1785'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install:/home/arjun-laptop/Documents/G.L.I.M.P.S.E/navsim_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'arjun-laptop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'arjun-laptop'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/arjun-laptop:@/tmp/.ICE-unix/1753,unix/arjun-laptop:/tmp/.ICE-unix/1753'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/38401ac5_92b4_4071_a36f_37cb2503b430'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XL8TY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/arjun-laptop/Documents/G.L.I.M.P.S.E/navsim_ws/install/sim_bot:/home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/build/sim_bot'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/arjun-laptop/Documents/G.L.I.M.P.S.E/navsim_ws/install/sim_bot:/home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot:/opt/ros/humble')]), 'shell': False}
+[2.201685] (-) TimerEvent: {}
+[2.226376] (sim_bot) CommandEnded: {'returncode': 0}
+[2.226843] (sim_bot) JobProgress: {'identifier': 'sim_bot', 'progress': 'install'}
+[2.234124] (sim_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/build/sim_bot'], 'cwd': '/home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/build/sim_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'arjun-laptop'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/arjun-laptop'), ('OLDPWD', '/home/arjun-laptop/Documents/EECE5554-FP'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1785'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install:/home/arjun-laptop/Documents/G.L.I.M.P.S.E/navsim_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'arjun-laptop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'arjun-laptop'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/arjun-laptop:@/tmp/.ICE-unix/1753,unix/arjun-laptop:/tmp/.ICE-unix/1753'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/38401ac5_92b4_4071_a36f_37cb2503b430'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XL8TY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/arjun-laptop/Documents/G.L.I.M.P.S.E/navsim_ws/install/sim_bot:/home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/build/sim_bot'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/arjun-laptop/Documents/G.L.I.M.P.S.E/navsim_ws/install/sim_bot:/home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot:/opt/ros/humble')]), 'shell': False}
+[2.239653] (sim_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.239826] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/config\n'}
+[2.240011] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/config/ekf.yaml\n'}
+[2.240090] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/config/ekf2.yaml\n'}
+[2.240141] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/config/doslam.yaml\n'}
+[2.240189] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/launch\n'}
+[2.240237] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/launch/sensor_fusion_odom.launch.py\n'}
+[2.240285] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/launch/urdf_visualizer.launch.py\n'}
+[2.240332] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/launch/nav_simulated.launch.py\n'}
+[2.240379] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/launch/gazebo_simulator.launch.py\n'}
+[2.240426] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/launch/lidar_config.launch.py\n'}
+[2.240492] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/meshes\n'}
+[2.240567] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/meshes/sensors\n'}
+[2.240613] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/meshes/sensors/lds.stl\n'}
+[2.240657] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/meshes/sensors/r200.dae\n'}
+[2.240701] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/meshes/sensors/astra.dae\n'}
+[2.244440] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/meshes/sensors/r200.jpg\n'}
+[2.244558] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/meshes/sensors/astra.jpg\n'}
+[2.244603] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/meshes/wheels\n'}
+[2.244647] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/meshes/wheels/right_tire.stl\n'}
+[2.244987] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/meshes/wheels/left_tire.stl\n'}
+[2.245467] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/meshes/bases\n'}
+[2.245543] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/meshes/bases/waffle_base.stl\n'}
+[2.247591] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/meshes/bases/waffle_pi_base.stl\n'}
+[2.249127] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/meshes/bases/waffle_base_for_open_manipulator.stl\n'}
+[2.250141] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/meshes/bases/burger_base.stl\n'}
+[2.250878] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/meshes/bases/waffle_pi_base_for_open_manipulator.stl\n'}
+[2.252188] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/maps\n'}
+[2.252256] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/maps/smalltown_world.pgm\n'}
+[2.254108] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/maps/smalltown_world.yaml\n'}
+[2.254202] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/models\n'}
+[2.254260] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/models/turtlebot_burger.urdf\n'}
+[2.254328] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/models/common_properties.urdf\n'}
+[2.254376] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/models/basic_mobile_bot_description\n'}
+[2.254422] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/models/basic_mobile_bot_description/model.sdf:Zone.Identifier\n'}
+[2.254468] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/models/basic_mobile_bot_description/model.sdf\n'}
+[2.254514] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/params\n'}
+[2.254591] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/params/nav2_params.yaml\n'}
+[2.254646] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/rviz\n'}
+[2.254689] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/rviz/urdf_config.rviz\n'}
+[2.254735] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/rviz/nav2_config.rviz\n'}
+[2.254780] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/worlds\n'}
+[2.254825] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/worlds/basic_mobile_bot_world\n'}
+[2.254875] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/worlds/basic_mobile_bot_world/empty.world\n'}
+[2.254956] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/worlds/basic_mobile_bot_world/smalltown.world\n'}
+[2.255013] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/ament_index/resource_index/package_run_dependencies/sim_bot\n'}
+[2.255060] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/ament_index/resource_index/parent_prefix_path/sim_bot\n'}
+[2.255107] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/environment/ament_prefix_path.sh\n'}
+[2.255153] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/environment/ament_prefix_path.dsv\n'}
+[2.255199] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/environment/path.sh\n'}
+[2.255245] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/environment/path.dsv\n'}
+[2.255291] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/local_setup.bash\n'}
+[2.255350] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/local_setup.sh\n'}
+[2.255421] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/local_setup.zsh\n'}
+[2.255471] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/local_setup.dsv\n'}
+[2.255513] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/package.dsv\n'}
+[2.255555] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/ament_index/resource_index/packages/sim_bot\n'}
+[2.255603] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/cmake/sim_botConfig.cmake\n'}
+[2.255646] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/cmake/sim_botConfig-version.cmake\n'}
+[2.255688] (sim_bot) StdoutLine: {'line': b'-- Installing: /home/arjun-laptop/Documents/EECE5554-FP/navsim_ws/install/sim_bot/share/sim_bot/package.xml\n'}
+[2.256736] (sim_bot) CommandEnded: {'returncode': 0}
+[2.264905] (sim_bot) JobEnded: {'identifier': 'sim_bot', 'rc': 0}
+[2.265428] (-) EventReactorShutdown: {}

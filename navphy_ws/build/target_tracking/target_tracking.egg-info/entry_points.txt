@@ -1,0 +1,3 @@
+[console_scripts]
+target_pos = target_tracking.target_pos:main
+

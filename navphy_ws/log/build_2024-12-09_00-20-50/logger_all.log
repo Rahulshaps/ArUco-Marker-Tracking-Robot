@@ -1,0 +1,298 @@
+[0.741s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.741s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffa6582740>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa667b6d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa667b6d0>>, mixin_verb=('build',))
+[2.037s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.038s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.038s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.038s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.039s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.039s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.039s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/group4/Documents/EECE5554-FP/navphy_ws'
+[2.042s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.043s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.043s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.043s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.044s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.044s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.044s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.044s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.044s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.122s] Level 1:colcon.colcon_core.package_identification:_identify(basic_mobile_robot) by extensions ['ignore', 'ignore_ament_install']
+[2.122s] Level 1:colcon.colcon_core.package_identification:_identify(basic_mobile_robot) by extension 'ignore'
+[2.123s] Level 1:colcon.colcon_core.package_identification:_identify(basic_mobile_robot) by extension 'ignore_ament_install'
+[2.123s] Level 1:colcon.colcon_core.package_identification:_identify(basic_mobile_robot) by extensions ['colcon_pkg']
+[2.123s] Level 1:colcon.colcon_core.package_identification:_identify(basic_mobile_robot) by extension 'colcon_pkg'
+[2.123s] Level 1:colcon.colcon_core.package_identification:_identify(basic_mobile_robot) by extensions ['colcon_meta']
+[2.123s] Level 1:colcon.colcon_core.package_identification:_identify(basic_mobile_robot) by extension 'colcon_meta'
+[2.123s] Level 1:colcon.colcon_core.package_identification:_identify(basic_mobile_robot) by extensions ['ros']
+[2.124s] Level 1:colcon.colcon_core.package_identification:_identify(basic_mobile_robot) by extension 'ros'
+[2.144s] DEBUG:colcon.colcon_core.package_identification:Package 'basic_mobile_robot' with type 'ros.ament_cmake' and name 'basic_mobile_robot'
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.146s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.146s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(navigation) by extensions ['ignore', 'ignore_ament_install']
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(navigation) by extension 'ignore'
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(navigation) by extension 'ignore_ament_install'
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(navigation) by extensions ['colcon_pkg']
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(navigation) by extension 'colcon_pkg'
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(navigation) by extensions ['colcon_meta']
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(navigation) by extension 'colcon_meta'
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(navigation) by extensions ['ros']
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(navigation) by extension 'ros'
+[2.155s] DEBUG:colcon.colcon_core.package_identification:Package 'navigation' with type 'ros.ament_python' and name 'navigation'
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(piCam) by extensions ['ignore', 'ignore_ament_install']
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(piCam) by extension 'ignore'
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(piCam) by extension 'ignore_ament_install'
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(piCam) by extensions ['colcon_pkg']
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(piCam) by extension 'colcon_pkg'
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(piCam) by extensions ['colcon_meta']
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(piCam) by extension 'colcon_meta'
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(piCam) by extensions ['ros']
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(piCam) by extension 'ros'
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(piCam) by extensions ['cmake', 'python']
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(piCam) by extension 'cmake'
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(piCam) by extension 'python'
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(piCam) by extensions ['python_setup_py']
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(piCam) by extension 'python_setup_py'
+[2.160s] Level 1:colcon.colcon_core.package_identification:_identify(piCam/calibration_images) by extensions ['ignore', 'ignore_ament_install']
+[2.160s] Level 1:colcon.colcon_core.package_identification:_identify(piCam/calibration_images) by extension 'ignore'
+[2.160s] Level 1:colcon.colcon_core.package_identification:_identify(piCam/calibration_images) by extension 'ignore_ament_install'
+[2.161s] Level 1:colcon.colcon_core.package_identification:_identify(piCam/calibration_images) by extensions ['colcon_pkg']
+[2.161s] Level 1:colcon.colcon_core.package_identification:_identify(piCam/calibration_images) by extension 'colcon_pkg'
+[2.161s] Level 1:colcon.colcon_core.package_identification:_identify(piCam/calibration_images) by extensions ['colcon_meta']
+[2.161s] Level 1:colcon.colcon_core.package_identification:_identify(piCam/calibration_images) by extension 'colcon_meta'
+[2.161s] Level 1:colcon.colcon_core.package_identification:_identify(piCam/calibration_images) by extensions ['ros']
+[2.161s] Level 1:colcon.colcon_core.package_identification:_identify(piCam/calibration_images) by extension 'ros'
+[2.162s] Level 1:colcon.colcon_core.package_identification:_identify(piCam/calibration_images) by extensions ['cmake', 'python']
+[2.162s] Level 1:colcon.colcon_core.package_identification:_identify(piCam/calibration_images) by extension 'cmake'
+[2.162s] Level 1:colcon.colcon_core.package_identification:_identify(piCam/calibration_images) by extension 'python'
+[2.162s] Level 1:colcon.colcon_core.package_identification:_identify(piCam/calibration_images) by extensions ['python_setup_py']
+[2.162s] Level 1:colcon.colcon_core.package_identification:_identify(piCam/calibration_images) by extension 'python_setup_py'
+[2.163s] Level 1:colcon.colcon_core.package_identification:_identify(piCam/captured_images) by extensions ['ignore', 'ignore_ament_install']
+[2.163s] Level 1:colcon.colcon_core.package_identification:_identify(piCam/captured_images) by extension 'ignore'
+[2.163s] Level 1:colcon.colcon_core.package_identification:_identify(piCam/captured_images) by extension 'ignore_ament_install'
+[2.164s] Level 1:colcon.colcon_core.package_identification:_identify(piCam/captured_images) by extensions ['colcon_pkg']
+[2.164s] Level 1:colcon.colcon_core.package_identification:_identify(piCam/captured_images) by extension 'colcon_pkg'
+[2.164s] Level 1:colcon.colcon_core.package_identification:_identify(piCam/captured_images) by extensions ['colcon_meta']
+[2.164s] Level 1:colcon.colcon_core.package_identification:_identify(piCam/captured_images) by extension 'colcon_meta'
+[2.164s] Level 1:colcon.colcon_core.package_identification:_identify(piCam/captured_images) by extensions ['ros']
+[2.164s] Level 1:colcon.colcon_core.package_identification:_identify(piCam/captured_images) by extension 'ros'
+[2.165s] Level 1:colcon.colcon_core.package_identification:_identify(piCam/captured_images) by extensions ['cmake', 'python']
+[2.165s] Level 1:colcon.colcon_core.package_identification:_identify(piCam/captured_images) by extension 'cmake'
+[2.165s] Level 1:colcon.colcon_core.package_identification:_identify(piCam/captured_images) by extension 'python'
+[2.165s] Level 1:colcon.colcon_core.package_identification:_identify(piCam/captured_images) by extensions ['python_setup_py']
+[2.165s] Level 1:colcon.colcon_core.package_identification:_identify(piCam/captured_images) by extension 'python_setup_py'
+[2.166s] Level 1:colcon.colcon_core.package_identification:_identify(rpi_pico) by extensions ['ignore', 'ignore_ament_install']
+[2.166s] Level 1:colcon.colcon_core.package_identification:_identify(rpi_pico) by extension 'ignore'
+[2.167s] Level 1:colcon.colcon_core.package_identification:_identify(rpi_pico) by extension 'ignore_ament_install'
+[2.167s] Level 1:colcon.colcon_core.package_identification:_identify(rpi_pico) by extensions ['colcon_pkg']
+[2.167s] Level 1:colcon.colcon_core.package_identification:_identify(rpi_pico) by extension 'colcon_pkg'
+[2.167s] Level 1:colcon.colcon_core.package_identification:_identify(rpi_pico) by extensions ['colcon_meta']
+[2.167s] Level 1:colcon.colcon_core.package_identification:_identify(rpi_pico) by extension 'colcon_meta'
+[2.167s] Level 1:colcon.colcon_core.package_identification:_identify(rpi_pico) by extensions ['ros']
+[2.168s] Level 1:colcon.colcon_core.package_identification:_identify(rpi_pico) by extension 'ros'
+[2.168s] Level 1:colcon.colcon_core.package_identification:_identify(rpi_pico) by extensions ['cmake', 'python']
+[2.168s] Level 1:colcon.colcon_core.package_identification:_identify(rpi_pico) by extension 'cmake'
+[2.168s] Level 1:colcon.colcon_core.package_identification:_identify(rpi_pico) by extension 'python'
+[2.168s] Level 1:colcon.colcon_core.package_identification:_identify(rpi_pico) by extensions ['python_setup_py']
+[2.169s] Level 1:colcon.colcon_core.package_identification:_identify(rpi_pico) by extension 'python_setup_py'
+[2.169s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ignore', 'ignore_ament_install']
+[2.169s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore'
+[2.170s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore_ament_install'
+[2.170s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_pkg']
+[2.170s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_pkg'
+[2.170s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_meta']
+[2.170s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_meta'
+[2.171s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ros']
+[2.171s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ros'
+[2.171s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['cmake', 'python']
+[2.171s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'cmake'
+[2.171s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python'
+[2.172s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['python_setup_py']
+[2.172s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python_setup_py'
+[2.172s] Level 1:colcon.colcon_core.package_identification:_identify(target_tracking) by extensions ['ignore', 'ignore_ament_install']
+[2.173s] Level 1:colcon.colcon_core.package_identification:_identify(target_tracking) by extension 'ignore'
+[2.173s] Level 1:colcon.colcon_core.package_identification:_identify(target_tracking) by extension 'ignore_ament_install'
+[2.173s] Level 1:colcon.colcon_core.package_identification:_identify(target_tracking) by extensions ['colcon_pkg']
+[2.173s] Level 1:colcon.colcon_core.package_identification:_identify(target_tracking) by extension 'colcon_pkg'
+[2.173s] Level 1:colcon.colcon_core.package_identification:_identify(target_tracking) by extensions ['colcon_meta']
+[2.173s] Level 1:colcon.colcon_core.package_identification:_identify(target_tracking) by extension 'colcon_meta'
+[2.174s] Level 1:colcon.colcon_core.package_identification:_identify(target_tracking) by extensions ['ros']
+[2.174s] Level 1:colcon.colcon_core.package_identification:_identify(target_tracking) by extension 'ros'
+[2.178s] DEBUG:colcon.colcon_core.package_identification:Package 'target_tracking' with type 'ros.ament_python' and name 'target_tracking'
+[2.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.390s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/group4/Documents/turtlebot3_ws/install
+[2.393s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/group4/Documents/EECE5554-FP/navphy_ws/install
+[2.405s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 341 installed packages in /opt/ros/humble
+[2.415s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.626s] Level 5:colcon.colcon_core.verb:set package 'basic_mobile_robot' build argument 'cmake_args' from command line to 'None'
+[2.626s] Level 5:colcon.colcon_core.verb:set package 'basic_mobile_robot' build argument 'cmake_target' from command line to 'None'
+[2.626s] Level 5:colcon.colcon_core.verb:set package 'basic_mobile_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.627s] Level 5:colcon.colcon_core.verb:set package 'basic_mobile_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[2.627s] Level 5:colcon.colcon_core.verb:set package 'basic_mobile_robot' build argument 'cmake_clean_first' from command line to 'False'
+[2.627s] Level 5:colcon.colcon_core.verb:set package 'basic_mobile_robot' build argument 'cmake_force_configure' from command line to 'False'
+[2.627s] Level 5:colcon.colcon_core.verb:set package 'basic_mobile_robot' build argument 'ament_cmake_args' from command line to 'None'
+[2.627s] Level 5:colcon.colcon_core.verb:set package 'basic_mobile_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[2.627s] Level 5:colcon.colcon_core.verb:set package 'basic_mobile_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.627s] DEBUG:colcon.colcon_core.verb:Building package 'basic_mobile_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/group4/Documents/EECE5554-FP/navphy_ws/build/basic_mobile_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot', 'merge_install': False, 'path': '/home/group4/Documents/EECE5554-FP/navphy_ws/basic_mobile_robot', 'symlink_install': False, 'test_result_base': None}
+[2.629s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_args' from command line to 'None'
+[2.629s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_target' from command line to 'None'
+[2.629s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.629s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[2.629s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_clean_first' from command line to 'False'
+[2.629s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_force_configure' from command line to 'False'
+[2.629s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'ament_cmake_args' from command line to 'None'
+[2.629s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[2.629s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.630s] DEBUG:colcon.colcon_core.verb:Building package 'navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/group4/Documents/EECE5554-FP/navphy_ws/build/navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation', 'merge_install': False, 'path': '/home/group4/Documents/EECE5554-FP/navphy_ws/navigation', 'symlink_install': False, 'test_result_base': None}
+[2.631s] Level 5:colcon.colcon_core.verb:set package 'target_tracking' build argument 'cmake_args' from command line to 'None'
+[2.631s] Level 5:colcon.colcon_core.verb:set package 'target_tracking' build argument 'cmake_target' from command line to 'None'
+[2.631s] Level 5:colcon.colcon_core.verb:set package 'target_tracking' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.631s] Level 5:colcon.colcon_core.verb:set package 'target_tracking' build argument 'cmake_clean_cache' from command line to 'False'
+[2.632s] Level 5:colcon.colcon_core.verb:set package 'target_tracking' build argument 'cmake_clean_first' from command line to 'False'
+[2.632s] Level 5:colcon.colcon_core.verb:set package 'target_tracking' build argument 'cmake_force_configure' from command line to 'False'
+[2.632s] Level 5:colcon.colcon_core.verb:set package 'target_tracking' build argument 'ament_cmake_args' from command line to 'None'
+[2.632s] Level 5:colcon.colcon_core.verb:set package 'target_tracking' build argument 'catkin_cmake_args' from command line to 'None'
+[2.632s] Level 5:colcon.colcon_core.verb:set package 'target_tracking' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.632s] DEBUG:colcon.colcon_core.verb:Building package 'target_tracking' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking', 'merge_install': False, 'path': '/home/group4/Documents/EECE5554-FP/navphy_ws/target_tracking', 'symlink_install': False, 'test_result_base': None}
+[2.633s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.636s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.637s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/group4/Documents/EECE5554-FP/navphy_ws/basic_mobile_robot' with build type 'ament_cmake'
+[2.637s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/group4/Documents/EECE5554-FP/navphy_ws/basic_mobile_robot'
+[2.665s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.667s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.667s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.702s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/group4/Documents/EECE5554-FP/navphy_ws/navigation' with build type 'ament_python'
+[2.703s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation', 'ament_prefix_path')
+[2.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation/share/navigation/hook/ament_prefix_path.ps1'
+[2.711s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation/share/navigation/hook/ament_prefix_path.dsv'
+[2.714s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation/share/navigation/hook/ament_prefix_path.sh'
+[2.719s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.720s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.749s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/group4/Documents/EECE5554-FP/navphy_ws/target_tracking' with build type 'ament_python'
+[2.750s] Level 1:colcon.colcon_core.shell:create_environment_hook('target_tracking', 'ament_prefix_path')
+[2.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/share/target_tracking/hook/ament_prefix_path.ps1'
+[2.754s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/share/target_tracking/hook/ament_prefix_path.dsv'
+[2.756s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/share/target_tracking/hook/ament_prefix_path.sh'
+[2.761s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.762s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.825s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/group4/Documents/EECE5554-FP/navphy_ws/build/basic_mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_example:/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking:/home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation:/opt/ros/humble /usr/bin/cmake --build /home/group4/Documents/EECE5554-FP/navphy_ws/build/basic_mobile_robot -- -j4 -l4
+[4.333s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/group4/Documents/EECE5554-FP/navphy_ws/navigation'
+[4.334s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.334s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.662s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/group4/Documents/EECE5554-FP/navphy_ws/target_tracking'
+[5.664s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.664s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.705s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/group4/Documents/EECE5554-FP/navphy_ws/build/basic_mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_example:/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking:/home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation:/opt/ros/humble /usr/bin/cmake --build /home/group4/Documents/EECE5554-FP/navphy_ws/build/basic_mobile_robot -- -j4 -l4
+[5.750s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/group4/Documents/EECE5554-FP/navphy_ws/build/basic_mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_example:/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking:/home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation:/opt/ros/humble /usr/bin/cmake --install /home/group4/Documents/EECE5554-FP/navphy_ws/build/basic_mobile_robot
+[5.849s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(basic_mobile_robot)
+[5.867s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/group4/Documents/EECE5554-FP/navphy_ws/build/basic_mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_teleop:/home/group4/Documents/turtlebot3_ws/install/turtlebot3_example:/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking:/home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation:/opt/ros/humble /usr/bin/cmake --install /home/group4/Documents/EECE5554-FP/navphy_ws/build/basic_mobile_robot
+[5.895s] Level 1:colcon.colcon_core.environment:checking '/home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot' for CMake module files
+[5.900s] Level 1:colcon.colcon_core.environment:checking '/home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot' for CMake config files
+[5.906s] Level 1:colcon.colcon_core.shell:create_environment_hook('basic_mobile_robot', 'cmake_prefix_path')
+[5.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/hook/cmake_prefix_path.ps1'
+[5.911s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/hook/cmake_prefix_path.dsv'
+[5.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/hook/cmake_prefix_path.sh'
+[5.919s] Level 1:colcon.colcon_core.environment:checking '/home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/lib'
+[5.920s] Level 1:colcon.colcon_core.environment:checking '/home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/bin'
+[5.921s] Level 1:colcon.colcon_core.environment:checking '/home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/lib/pkgconfig/basic_mobile_robot.pc'
+[5.923s] Level 1:colcon.colcon_core.environment:checking '/home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/lib/python3.10/site-packages'
+[5.924s] Level 1:colcon.colcon_core.environment:checking '/home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/bin'
+[5.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/package.ps1'
+[5.934s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/package.dsv'
+[5.938s] INFO:colcon.colcon_core.shell:Creating package script '/home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/package.sh'
+[5.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/package.bash'
+[5.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/package.zsh'
+[5.953s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/colcon-core/packages/basic_mobile_robot)
+[5.956s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(basic_mobile_robot)
+[5.957s] Level 1:colcon.colcon_core.environment:checking '/home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot' for CMake module files
+[5.962s] Level 1:colcon.colcon_core.environment:checking '/home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot' for CMake config files
+[5.967s] Level 1:colcon.colcon_core.shell:create_environment_hook('basic_mobile_robot', 'cmake_prefix_path')
+[5.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/hook/cmake_prefix_path.ps1'
+[5.971s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/hook/cmake_prefix_path.dsv'
+[5.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/hook/cmake_prefix_path.sh'
+[5.977s] Level 1:colcon.colcon_core.environment:checking '/home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/lib'
+[5.978s] Level 1:colcon.colcon_core.environment:checking '/home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/bin'
+[5.979s] Level 1:colcon.colcon_core.environment:checking '/home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/lib/pkgconfig/basic_mobile_robot.pc'
+[5.980s] Level 1:colcon.colcon_core.environment:checking '/home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/lib/python3.10/site-packages'
+[5.981s] Level 1:colcon.colcon_core.environment:checking '/home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/bin'
+[5.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/package.ps1'
+[5.986s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/package.dsv'
+[5.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/package.sh'
+[5.993s] INFO:colcon.colcon_core.shell:Creating package script '/home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/package.bash'
+[5.997s] INFO:colcon.colcon_core.shell:Creating package script '/home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/basic_mobile_robot/package.zsh'
+[6.003s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/group4/Documents/EECE5554-FP/navphy_ws/install/basic_mobile_robot/share/colcon-core/packages/basic_mobile_robot)
+[7.935s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/group4/Documents/EECE5554-FP/navphy_ws/target_tracking': PYTHONPATH=/home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/target_tracking build --build-base /home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/build install --record /home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/install.log --single-version-externally-managed install_data
+[7.941s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/group4/Documents/EECE5554-FP/navphy_ws/navigation': PYTHONPATH=/home/group4/Documents/EECE5554-FP/navphy_ws/build/navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/navigation build --build-base /home/group4/Documents/EECE5554-FP/navphy_ws/build/navigation/build install --record /home/group4/Documents/EECE5554-FP/navphy_ws/build/navigation/install.log --single-version-externally-managed install_data
+[9.645s] Level 1:colcon.colcon_core.environment:checking '/home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation' for CMake module files
+[9.647s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/group4/Documents/EECE5554-FP/navphy_ws/navigation' returned '0': PYTHONPATH=/home/group4/Documents/EECE5554-FP/navphy_ws/build/navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/navigation build --build-base /home/group4/Documents/EECE5554-FP/navphy_ws/build/navigation/build install --record /home/group4/Documents/EECE5554-FP/navphy_ws/build/navigation/install.log --single-version-externally-managed install_data
+[9.649s] Level 1:colcon.colcon_core.environment:checking '/home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation' for CMake config files
+[9.653s] Level 1:colcon.colcon_core.environment:checking '/home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation/lib'
+[9.653s] Level 1:colcon.colcon_core.environment:checking '/home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation/bin'
+[9.654s] Level 1:colcon.colcon_core.environment:checking '/home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation/lib/pkgconfig/navigation.pc'
+[9.655s] Level 1:colcon.colcon_core.environment:checking '/home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation/lib/python3.10/site-packages'
+[9.655s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation', 'pythonpath')
+[9.656s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation/share/navigation/hook/pythonpath.ps1'
+[9.658s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation/share/navigation/hook/pythonpath.dsv'
+[9.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation/share/navigation/hook/pythonpath.sh'
+[9.663s] Level 1:colcon.colcon_core.environment:checking '/home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation/bin'
+[9.663s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigation)
+[9.665s] INFO:colcon.colcon_core.shell:Creating package script '/home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation/share/navigation/package.ps1'
+[9.667s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation/share/navigation/package.dsv'
+[9.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation/share/navigation/package.sh'
+[9.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation/share/navigation/package.bash'
+[9.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation/share/navigation/package.zsh'
+[9.675s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/group4/Documents/EECE5554-FP/navphy_ws/install/navigation/share/colcon-core/packages/navigation)
+[9.678s] Level 1:colcon.colcon_core.environment:checking '/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking' for CMake module files
+[9.682s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/group4/Documents/EECE5554-FP/navphy_ws/target_tracking' returned '0': PYTHONPATH=/home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/target_tracking build --build-base /home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/build install --record /home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/install.log --single-version-externally-managed install_data
+[9.683s] Level 1:colcon.colcon_core.environment:checking '/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking' for CMake config files
+[9.687s] Level 1:colcon.colcon_core.environment:checking '/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib'
+[9.687s] Level 1:colcon.colcon_core.environment:checking '/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/bin'
+[9.687s] Level 1:colcon.colcon_core.environment:checking '/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/pkgconfig/target_tracking.pc'
+[9.689s] Level 1:colcon.colcon_core.environment:checking '/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages'
+[9.689s] Level 1:colcon.colcon_core.shell:create_environment_hook('target_tracking', 'pythonpath')
+[9.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/share/target_tracking/hook/pythonpath.ps1'
+[9.693s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/share/target_tracking/hook/pythonpath.dsv'
+[9.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/share/target_tracking/hook/pythonpath.sh'
+[9.699s] Level 1:colcon.colcon_core.environment:checking '/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/bin'
+[9.700s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(target_tracking)
+[9.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/share/target_tracking/package.ps1'
+[9.704s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/share/target_tracking/package.dsv'
+[9.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/share/target_tracking/package.sh'
+[9.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/share/target_tracking/package.bash'
+[9.714s] INFO:colcon.colcon_core.shell:Creating package script '/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/share/target_tracking/package.zsh'
+[9.716s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/share/colcon-core/packages/target_tracking)
+[9.718s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.720s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.720s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.721s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.766s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.766s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.766s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.866s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.867s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/group4/Documents/EECE5554-FP/navphy_ws/install/local_setup.ps1'
+[9.874s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/group4/Documents/EECE5554-FP/navphy_ws/install/_local_setup_util_ps1.py'
+[9.884s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/group4/Documents/EECE5554-FP/navphy_ws/install/setup.ps1'
+[9.895s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/group4/Documents/EECE5554-FP/navphy_ws/install/local_setup.sh'
+[9.899s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/group4/Documents/EECE5554-FP/navphy_ws/install/_local_setup_util_sh.py'
+[9.903s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/group4/Documents/EECE5554-FP/navphy_ws/install/setup.sh'
+[9.919s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/group4/Documents/EECE5554-FP/navphy_ws/install/local_setup.bash'
+[9.927s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/group4/Documents/EECE5554-FP/navphy_ws/install/setup.bash'
+[9.941s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/group4/Documents/EECE5554-FP/navphy_ws/install/local_setup.zsh'
+[9.945s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/group4/Documents/EECE5554-FP/navphy_ws/install/setup.zsh'

@@ -1,0 +1,10 @@
+/home/group4/Documents/EECE5554-FP/navphy_ws/build/basic_mobile_robot/CMakeFiles/uninstall.dir
+/home/group4/Documents/EECE5554-FP/navphy_ws/build/basic_mobile_robot/CMakeFiles/basic_mobile_robot_uninstall.dir
+/home/group4/Documents/EECE5554-FP/navphy_ws/build/basic_mobile_robot/CMakeFiles/lidar_odometry_node.dir
+/home/group4/Documents/EECE5554-FP/navphy_ws/build/basic_mobile_robot/CMakeFiles/test.dir
+/home/group4/Documents/EECE5554-FP/navphy_ws/build/basic_mobile_robot/CMakeFiles/edit_cache.dir
+/home/group4/Documents/EECE5554-FP/navphy_ws/build/basic_mobile_robot/CMakeFiles/rebuild_cache.dir
+/home/group4/Documents/EECE5554-FP/navphy_ws/build/basic_mobile_robot/CMakeFiles/list_install_components.dir
+/home/group4/Documents/EECE5554-FP/navphy_ws/build/basic_mobile_robot/CMakeFiles/install.dir
+/home/group4/Documents/EECE5554-FP/navphy_ws/build/basic_mobile_robot/CMakeFiles/install/local.dir
+/home/group4/Documents/EECE5554-FP/navphy_ws/build/basic_mobile_robot/CMakeFiles/install/strip.dir

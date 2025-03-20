@@ -1,0 +1,24 @@
+[3.965s] Invoking command in '/home/group4/Documents/EECE5554-FP/navphy_ws/target_tracking': PYTHONPATH=/home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/target_tracking build --build-base /home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/build install --record /home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/install.log --single-version-externally-managed install_data
+[5.236s] running egg_info
+[5.238s] writing ../build/target_tracking/target_tracking.egg-info/PKG-INFO
+[5.240s] writing dependency_links to ../build/target_tracking/target_tracking.egg-info/dependency_links.txt
+[5.241s] writing entry points to ../build/target_tracking/target_tracking.egg-info/entry_points.txt
+[5.242s] writing requirements to ../build/target_tracking/target_tracking.egg-info/requires.txt
+[5.243s] writing top-level names to ../build/target_tracking/target_tracking.egg-info/top_level.txt
+[5.252s] reading manifest file '../build/target_tracking/target_tracking.egg-info/SOURCES.txt'
+[5.258s] writing manifest file '../build/target_tracking/target_tracking.egg-info/SOURCES.txt'
+[5.259s] running build
+[5.259s] running build_py
+[5.260s] copying target_tracking/target_pos.py -> /home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/build/lib/target_tracking
+[5.262s] running install
+[5.264s] running install_lib
+[5.271s] copying /home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/build/lib/target_tracking/target_pos.py -> /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages/target_tracking
+[5.272s] byte-compiling /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages/target_tracking/target_pos.py to target_pos.cpython-310.pyc
+[5.278s] running install_data
+[5.279s] running install_egg_info
+[5.286s] removing '/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages/target_tracking-0.0.0-py3.10.egg-info' (and everything under it)
+[5.288s] Copying ../build/target_tracking/target_tracking.egg-info to /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages/target_tracking-0.0.0-py3.10.egg-info
+[5.303s] running install_scripts
+[5.396s] Installing target_pos script to /home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/target_tracking
+[5.398s] writing list of installed files to '/home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/install.log'
+[5.539s] Invoked command in '/home/group4/Documents/EECE5554-FP/navphy_ws/target_tracking' returned '0': PYTHONPATH=/home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/group4/Documents/EECE5554-FP/navphy_ws/install/target_tracking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/target_tracking build --build-base /home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/build install --record /home/group4/Documents/EECE5554-FP/navphy_ws/build/target_tracking/install.log --single-version-externally-managed install_data

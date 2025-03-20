@@ -1,0 +1,5 @@
+[console_scripts]
+nav2pose = navigation.nav2pose:main
+nav2pose_talker = navigation.nav2pose_talker:main
+target_search = navigation.target_search:main
+
